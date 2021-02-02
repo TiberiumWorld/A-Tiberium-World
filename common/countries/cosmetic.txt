@@ -1,0 +1,32 @@
+
+GDI_UN = {
+    color = rgb { 255 243 118 }
+    color_ui = rgb { 255 243 118 }
+}
+GDI_UNGDI = {
+    color = rgb { 255 243 118 }
+    color_ui = rgb { 255 243 118 }
+}
+
+GDI_UNGDI = {
+    color = rgb { 255 243 118 }
+    color_ui = rgb { 255 243 118 }
+}
+
+GDI_TD = {
+    color = rgb { 255 243 118 }
+    color_ui = rgb { 255 243 118 }
+}
+GDI_TS = {
+    color = rgb { 255 243 118 }
+    color_ui = rgb { 255 243 118 }
+}
+GDI_TW = {
+    color = rgb { 255 243 118 }
+    color_ui = rgb { 255 243 118 }
+}
+
+NOD_PS = {
+	color = rgb { 50 50 50 }
+	color_ui = rgb { 50 50 50 }
+}

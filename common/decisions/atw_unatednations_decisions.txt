@@ -1,0 +1,34 @@
+atw_unitednations_decisions = {
+    debug_un_leave_the_united_nations = {
+
+        allowed = {
+            OR = {
+                has_autonomy_state = UN_independent_member_state
+                has_autonomy_state = UN_independent_member_state_securitycouncil
+            }
+        }
+
+        available = {
+
+        }
+
+        cost = 0
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        visible = {
+            OR = {
+                is_debug = yes
+                has_autonomy_state = UN_independent_member_state
+                has_autonomy_state = UN_independent_member_state_securitycouncil
+            }
+        }
+
+        complete_effect = {
+            end_puppet = OVERLORD
+            leave_faction = yes
+        }
+    }
+}

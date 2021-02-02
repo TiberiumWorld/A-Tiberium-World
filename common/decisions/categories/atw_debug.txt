@@ -1,0 +1,6 @@
+atw_debug_decisions = {
+	icon = generic_research
+	visible = {
+		is_debug = yes
+	}
+}

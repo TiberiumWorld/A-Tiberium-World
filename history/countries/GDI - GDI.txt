@@ -1,0 +1,148 @@
+﻿capital = 11892
+
+set_research_slots = 2
+
+set_stability = 1.0
+set_war_support = 0
+
+set_convoys = 500
+
+create_faction = faction_ungda
+
+set_cosmetic_tag = GDI_UN
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1953.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 69
+	communism = 4
+	fascism = 17
+	neutrality = 10
+}
+
+set_party_name = { 
+    ideology = democratic 
+    long_name = GDI_UN_democratic_party_long 
+    name = GDI_UN_democratic_party
+}
+set_party_name = { 
+    ideology = communism 
+    long_name = GDI_UN_communism_party_long 
+    name = GDI_UN_communism_party
+}
+set_party_name = { 
+    ideology = fascism 
+    long_name = GDI_UN_fascism_party_long 
+    name = GDI_UN_fascism_party
+}
+set_party_name = { 
+    ideology = neutrality 
+    long_name = GDI_UN_neutrality_party_long 
+    name = GDI_UN_neutrality_party
+}
+
+# Leaders
+create_country_leader = { # Misc leader
+	name = "Matthew L. Riddle"
+	desc = UN_security_council_desc
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = un_securitycouncil
+}
+create_country_leader = { # Misc leader
+	name = "Susan C. Mitchell"
+	desc = UN_security_council_desc
+	picture = "leader_unknown.dds"
+	female = yes
+	expire = "2040.1.1"
+	ideology = gdi_military
+}
+create_country_leader = { # Misc leader
+	name = "Jacob D. Reyna"
+	desc = UN_security_council_desc
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = gdi_directorate
+}
+
+create_country_leader = { # Misc leader
+	name = "Shawn Wise"
+	desc = ""
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = com_anti_revisionism
+}
+
+create_country_leader = { # Misc leader
+	name = "Craig E. Johnson"
+	desc = ""
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = nod_ideology
+}
+
+create_country_leader = { # Misc leader
+	name = "John Lawson"
+	desc = ""
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = un_abolitionfaction
+} 
+
+# DIPLOMACY
+
+set_autonomy = {
+	target = ENG
+	autonomous_state =  UN_independent_member_state_securitycouncil
+}
+set_autonomy = {
+	target = IRE
+	autonomous_state =  UN_independent_member_state
+}
+
+set_autonomy = {
+	target = GER
+	autonomous_state =  UN_independent_member_state
+}
+set_autonomy = {
+	target = FRA
+	autonomous_state =  UN_independent_member_state_securitycouncil
+}
+set_autonomy = {
+	target = SPR
+	autonomous_state =  UN_independent_member_state
+}
+set_autonomy = {
+	target = POR
+	autonomous_state =  UN_independent_member_state
+}
+
+set_autonomy = {
+	target = SWI
+	autonomous_state =  UN_independent_member_state
+}
+set_autonomy = {
+	target = AUS
+	autonomous_state =  UN_independent_member_state
+}
+
+set_autonomy = {
+	target = CAN
+	autonomous_state =  UN_independent_member_state
+}
+set_autonomy = {
+	target = USA
+	autonomous_state =  UN_independent_member_state_securitycouncil
+}
+set_autonomy = {
+	target = MEX
+	autonomous_state =  UN_independent_member_state
+}
+set_autonomy = {
+	target = GUA
+	autonomous_state =  UN_independent_member_state
+}

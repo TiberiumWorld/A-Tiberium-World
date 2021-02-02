@@ -1,0 +1,77 @@
+atw_debug_decisions = {
+    debug_set_GDI_UN_TAG = {
+
+        allowed = {
+            original_tag = GDI
+        }
+
+        available = {
+            original_tag = GDI
+        }
+
+        cost = 0
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        visible = {
+            original_tag = GDI
+        }
+
+        complete_effect = {
+            set_cosmetic_tag = GDI_UN
+            set_faction_name = faction_gdi
+        }
+    }
+    debug_set_GDI_UNGDI_TAG = {
+
+        allowed = {
+            original_tag = GDI
+        }
+
+        available = {
+            original_tag = GDI
+        }
+
+        cost = 0
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        visible = {
+            original_tag = GDI
+        }
+
+        complete_effect = {
+            set_cosmetic_tag = GDI_UNGDI
+            set_faction_name = faction_ungdi
+        }
+    }    
+    debug_set_GDI_GDI_TAG = {
+
+        allowed = {
+            original_tag = GDI
+        }
+
+        available = {
+            original_tag = GDI
+        }
+
+        cost = 0
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        visible = {
+            original_tag = GDI
+        }
+
+        complete_effect = {
+            set_cosmetic_tag = GDI
+            set_faction_name = faction_ungda
+        }
+    }    
+}

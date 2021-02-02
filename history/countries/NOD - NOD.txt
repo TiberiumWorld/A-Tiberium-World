@@ -1,0 +1,108 @@
+﻿capital = 11899
+
+set_research_slots = 2
+set_stability = 1.0
+set_war_support = 0.6
+
+set_convoys = 500
+
+create_faction = faction_nod
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1925.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 2
+	communism = 0
+	fascism = 95
+	neutrality = 3
+}
+
+set_party_name = { 
+    ideology = democratic 
+    long_name = NOD_democratic_party_long 
+    name = NOD_democratic_party
+}
+set_party_name = { 
+    ideology = communism 
+    long_name = NOD_communism_party_long 
+    name = NOD_communism_party
+}
+set_party_name = { 
+    ideology = fascism 
+    long_name = NOD_fascism_party_long 
+    name = NOD_fascism_party
+}
+set_party_name = { 
+    ideology = neutrality 
+    long_name = NOD_neutrality_party_long 
+    name = NOD_neutrality_party
+}
+
+# Leaders
+create_country_leader = { # Misc leader
+	name = "Roger G. Allen"
+	desc = UN_security_council_desc
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = dem_autocratic
+}
+create_country_leader = { # Misc leader
+	name = "Gary Dobbs"
+	desc = ""
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = com_anti_revisionism
+}
+create_country_leader = { # Misc leader
+	name = "Emmanuel"
+	desc = ""
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = nod_kaneism
+}
+create_country_leader = { # Misc leader
+	name = "Reggie"
+	desc = ""
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = nod_kaneism
+}
+create_country_leader = { # Misc leader
+	name = "Lazarus"
+	desc = ""
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = neu_anarchism
+}
+create_country_leader = { # Misc leader
+	name = "Gary Boss"
+	desc = ""
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = neu_centrism
+}
+create_country_leader = { # Misc leader
+	name = "Julius"
+	desc = ""
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = fas_rexism
+}
+create_country_leader = { # Seth
+	name = "Seth"
+	desc = "I'm Seth. Just Seth. From God, to Kane, to Seth."
+	picture = "leader_unknown.dds"
+	expire = "2040.1.1"
+	ideology = nod_sethism
+}
+create_country_leader = { # Kane
+	name = "Kane"
+	desc = "Kane is the charismatic, absolute leader of the Brotherhood of Nod, who features prominently in all of the Tiberium Universe games, as well as in the original Red Alert game as the secretive advisor to Joseph Stalin."
+	picture = "portrait_nod_kane.dds"
+	expire = "2040.1.1"
+	ideology = nod_kaneism
+}

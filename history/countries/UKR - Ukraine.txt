@@ -1,0 +1,43 @@
+﻿capital = 202 #Kiev
+
+set_research_slots = 2
+set_stability = 1.0
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1954.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 54
+	communism = 12
+	fascism = 17
+	neutrality = 17
+}
+
+set_party_name = { 
+    ideology = democratic 
+    long_name = ITA_democratic_party_long 
+	name = ITA_democratic_party
+}
+set_party_name = { 
+    ideology = communism 
+    long_name = ITA_communism_party_long 
+    name = ITA_communism_party
+}
+set_party_name = { 
+    ideology = fascism 
+    long_name = ITA_fascism_party_long 
+    name = ITA_fascism_party
+}
+set_party_name = { 
+    ideology = neutrality 
+    long_name = ITA_neutrality_party_long 
+    name = ITA_neutrality_party
+}
+
+# DIPLOMACY

@@ -1,0 +1,28 @@
+
+state={
+	id=807
+	name="STATE_361"
+	manpower = 0
+	
+	state_category = military
+
+	history={
+		owner = GDI
+		victory_points = {
+			11892 15
+		}
+		buildings = {
+			infrastructure = 10
+			
+			11892 = {
+				air_base = 6
+				naval_base = 8
+			}
+		}
+		add_core_of = GDI
+	}
+
+	provinces={
+		11892
+	}
+}

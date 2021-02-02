@@ -1,0 +1,53 @@
+﻿capital = 206 #Minsk
+
+NOD = {
+    set_autonomy = {
+        target = BLR
+        autonomous_state =  nod_puppet
+    }
+}
+
+set_research_slots = 2
+
+set_stability = 1.0
+set_war_support = 0.4
+
+#set_convoys = 0
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1930.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_research_slots = 2
+
+set_popularities = {
+	democratic = 5
+	neutrality = 10
+	communism = 40
+	fascism = 45
+}
+
+set_party_name = { 
+    ideology = democratic 
+    long_name = Generic_DEM4_party_long 
+    name = Generic_DEM4_party
+}
+set_party_name = { 
+    ideology = communism 
+    long_name = Generic_COM1_party_long 
+    name = Generic_COM1_party
+}
+set_party_name = { 
+    ideology = fascism 
+    long_name = Generic_NOD_party_long 
+    name = Generic_NOD_party
+}
+set_party_name = { 
+    ideology = neutrality 
+    long_name = Generic_NEU1_party_long 
+    name = Generic_NEU1_party
+}
+
+set_cosmetic_tag = NOD_PS

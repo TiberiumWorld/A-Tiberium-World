@@ -1,0 +1,11 @@
+atw_unitednations_decisions = {
+	icon = generic_research
+	visible = {
+		OR = {
+			is_debug = yes
+			has_autonomy_state = UN_independent_member_state
+			has_autonomy_state = UN_independent_member_state_securitycouncil
+			has_autonomy_state = UN_gdi_region
+		}
+	}
+}
