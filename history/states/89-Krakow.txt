@@ -1,29 +1,28 @@
 state={
-	id=93
-	name="STATE_93"
+	id=89
+	name="STATE_89"
 
 	history={
 		victory_points = {
-			6557 1
+			11411 1
 		}
 		#victory_points = {
-		#	572 5
-		#}
-		#victory_points = {
-		#	513 1
+		#	6483 1
 		#}
 		owner = UKR
 		buildings = {
 			infrastructure = 5
+			air_base = 3
 
 		}
+		add_core_of = UKR
 
 	}
 
 	provinces={
-		422 474 513 572 3412 6435 6520 6557 11441 11543 
+		3743 6431 6460 6483 9425 11411 11550 
 	}
-	manpower=1985600
+	manpower=2180300
 	buildings_max_level_factor=1.000
 	state_category=town
 }
