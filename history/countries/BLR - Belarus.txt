@@ -16,7 +16,7 @@ set_war_support = 0.4
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1930.1.1"
+	last_election = "1952.5.14"
 	election_frequency = 48
 	elections_allowed = no
 }

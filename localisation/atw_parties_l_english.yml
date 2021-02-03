@@ -5,6 +5,16 @@
  Generic_GDI_party_long:0 "Global Defense Initiative"
  Generic_GDI_party:0 "Global Defense Initiative"
 
+
+ Generic_democratic_party_long:0 "Democratic Party"
+ Generic_democratic_party:0 "Democratic Party"
+ Generic_communism_party_long:0 "Communist Party"
+ Generic_communism_party:0 "Communist Party"
+ Generic_fascism_party_long:0 "Fascist Party"
+ Generic_fascism_party:0 "Fascist Party"
+ Generic_neutrality_party_long:0 "Independent Party"
+ Generic_neutrality_party:0 "Independent Party"
+
  Generic_DEM1_party_long:0 "Democratic Party"
  Generic_DEM1_party:0 "Democratic Party"
  Generic_DEM2_party_long:0 "Libaral Democrasy Party"
