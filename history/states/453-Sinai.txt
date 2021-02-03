@@ -8,7 +8,7 @@ state={
 	
 	
 	history = {
-		owner = NOD
+		owner = NOA
 		buildings = {
 			infrastructure = 2
 		}
@@ -20,7 +20,7 @@ state={
 			10099 1
 		}
 
-		add_core_of = NOD
+		add_core_of = NOA
 		add_core_of = EGY
 
 	}

@@ -92,17 +92,16 @@ create_country_leader = { # Misc leader
 	expire = "2040.1.1"
 	ideology = fas_rexism
 }
-create_country_leader = { # Seth
-	name = "Seth"
-	desc = "I'm Seth. Just Seth. From God, to Kane, to Seth."
-	picture = "leader_unknown.dds"
-	expire = "2040.1.1"
-	ideology = nod_sethism
-}
 create_country_leader = { # Kane
 	name = "Kane"
 	desc = "Kane is the charismatic, absolute leader of the Brotherhood of Nod, who features prominently in all of the Tiberium Universe games, as well as in the original Red Alert game as the secretive advisor to Joseph Stalin."
 	picture = "portrait_nod_kane.dds"
 	expire = "2040.1.1"
 	ideology = nod_kaneism
+	traits = {
+		dictator
+		socialite_connections
+		incognito
+		guerilla_warfare_expert
+	}
 }

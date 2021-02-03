@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = NOD
+		owner = NOA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -19,7 +19,7 @@ state={
 			11976 1 
 		}
 
-		add_core_of = NOD
+		add_core_of = NOA
 		add_core_of = JOR
 	}
 
