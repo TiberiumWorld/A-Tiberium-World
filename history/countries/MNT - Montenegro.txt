@@ -1,0 +1,44 @@
+﻿# MNT democratic (yes) [26.0, 14.000000000000002, 34.0, 26.0]
+capital = 105 # Montenegro
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.36
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2009.1.13"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 250 (1.0)
+	democratic = 26.0
+	communism = 14.000000000000002
+	fascism = 34.0
+	neutrality = 26.0
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}

@@ -1,0 +1,44 @@
+﻿# WGR democratic (yes) [31.0, 3.0, 34.0, 32.0]
+capital = 64
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.23
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2009.5.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 233 (1.0)
+	democratic = 31.0
+	communism = 3.0
+	fascism = 34.0
+	neutrality = 32.0
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}

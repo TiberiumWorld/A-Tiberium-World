@@ -1,0 +1,44 @@
+﻿# LIT neutrality (no) [35.0, 32.0, 3.0, 30.0]
+capital = 11
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.72
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2004.10.14"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 198 (1.0)
+	democratic = 35.0
+	communism = 32.0
+	fascism = 3.0
+	neutrality = 30.0
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}

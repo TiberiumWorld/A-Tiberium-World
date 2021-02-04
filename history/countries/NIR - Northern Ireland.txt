@@ -1,0 +1,44 @@
+﻿# NIR communism (no) [3.0, 23.0, 35.0, 39.0]
+capital = 119
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.45
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2006.9.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 240 (1.0)
+	democratic = 3.0
+	communism = 23.0
+	fascism = 35.0
+	neutrality = 39.0
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}

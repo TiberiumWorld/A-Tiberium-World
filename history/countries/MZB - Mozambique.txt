@@ -1,0 +1,44 @@
+﻿# MZB neutrality (no) [12.0, 24.0, 24.0, 40.0]
+capital = 544
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.72
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1999.10.25"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 201 (1.0)
+	democratic = 12.0
+	communism = 24.0
+	fascism = 24.0
+	neutrality = 40.0
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}

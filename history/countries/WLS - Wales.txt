@@ -1,0 +1,44 @@
+﻿# WLS fascism (no) [20.0, 26.0, 36.0, 18.0]
+capital = 122
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1998.2.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 283 (1.0)
+	democratic = 20.0
+	communism = 26.0
+	fascism = 36.0
+	neutrality = 18.0
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}

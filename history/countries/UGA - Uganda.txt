@@ -1,0 +1,44 @@
+﻿# UGA neutrality (yes) [14.000000000000002, 28.000000000000004, 28.999999999999996, 28.999999999999996]
+capital = 548
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.49
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.7.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 282 (1.0)
+	democratic = 14.000000000000002
+	communism = 28.000000000000004
+	fascism = 28.999999999999996
+	neutrality = 28.999999999999996
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}

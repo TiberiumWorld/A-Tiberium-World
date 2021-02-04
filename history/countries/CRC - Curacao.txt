@@ -1,0 +1,44 @@
+﻿# CRC communism (yes) [28.999999999999996, 25.0, 30.0, 16.0]
+capital = 695
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.67
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2009.5.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 231 (1.0)
+	democratic = 28.999999999999996
+	communism = 25.0
+	fascism = 30.0
+	neutrality = 16.0
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}
