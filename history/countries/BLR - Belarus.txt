@@ -1,53 +1,44 @@
+﻿# BLR democratic (yes) [43, 33, 22, 2]
 ﻿capital = 206 #Minsk
 
-NOD = {
-    set_autonomy = {
-        target = BLR
-        autonomous_state =  nod_puppet
-    }
-}
+# oob = ""
 
 set_research_slots = 2
+set_stability = 0.63
+set_war_support = 0
 
-set_stability = 1.0
-set_war_support = 0.4
-
-#set_convoys = 0
+set_convoys = 500
 
 set_politics = {
-	ruling_party = communism
-	last_election = "1952.5.14"
+	ruling_party = democratic
+	last_election = "2009.9.17"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
-set_research_slots = 2
-
-set_popularities = {
-	democratic = 5
-	neutrality = 10
-	communism = 40
-	fascism = 45
+set_popularities = { # Total: 100% = 199 (1.0)
+	democratic = 43
+	communism = 33
+	fascism = 22
+	neutrality = 2
 }
 
-set_party_name = { 
-    ideology = democratic 
-    long_name = Generic_DEM4_party_long 
-    name = Generic_DEM4_party
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
 }
-set_party_name = { 
-    ideology = communism 
-    long_name = Generic_COM1_party_long 
-    name = Generic_COM1_party
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
 }
-set_party_name = { 
-    ideology = fascism 
-    long_name = Generic_NOD_party_long 
-    name = Generic_NOD_party
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
 }
-set_party_name = { 
-    ideology = neutrality 
-    long_name = Generic_NEU1_party_long 
-    name = Generic_NEU1_party
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
 }
-
-set_cosmetic_tag = NOD_PS

@@ -1,0 +1,44 @@
+﻿# SOM communism (no) [36, 15, 16, 33]
+capital = 559
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.21
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1997.5.25"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 233 (1.0)
+	democratic = 36
+	communism = 15
+	fascism = 16
+	neutrality = 33
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}

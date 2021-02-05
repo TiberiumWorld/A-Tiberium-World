@@ -1,4 +1,4 @@
-﻿capital = 4111 #Tbilisi
+﻿capital = 554 #Tbilisi
 
 set_research_slots = 2
 set_stability = 1.0

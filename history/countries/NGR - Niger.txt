@@ -1,0 +1,44 @@
+﻿# NGR neutrality (yes) [14, 24, 32, 30]
+capital = 781
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.89
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.8.13"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 220 (1.0)
+	democratic = 14
+	communism = 24
+	fascism = 32
+	neutrality = 30
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}

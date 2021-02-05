@@ -1,0 +1,44 @@
+﻿# YEM fascism (no) [24, 27, 28, 21]
+capital = 293
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.26
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2003.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 336 (1.0)
+	democratic = 24
+	communism = 27
+	fascism = 28
+	neutrality = 21
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}

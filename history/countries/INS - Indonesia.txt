@@ -1,0 +1,44 @@
+﻿# INS communism (no) [28, 46, 7, 19]
+capital = 335 #Jakarta
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2000.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 231 (1.0)
+	democratic = 28
+	communism = 46
+	fascism = 7
+	neutrality = 19
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}

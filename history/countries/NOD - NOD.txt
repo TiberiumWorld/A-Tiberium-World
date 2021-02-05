@@ -1,4 +1,4 @@
-﻿capital = 11899
+﻿capital = 104
 
 set_research_slots = 2
 set_stability = 1.0
@@ -22,22 +22,22 @@ set_popularities = {
 }
 
 set_party_name = { 
-    ideology = democratic 
+    ideology = democratic
     long_name = NOD_democratic_party_long 
     name = NOD_democratic_party
 }
 set_party_name = { 
-    ideology = communism 
+    ideology = communism
     long_name = NOD_communism_party_long 
     name = NOD_communism_party
 }
 set_party_name = { 
-    ideology = fascism 
-    long_name = NOD_fascism_party_long 
-    name = NOD_fascism_party
+    ideology = fascism
+    long_name = "Brotherhood of NOD" 
+    name = "Brotherhood of NOD" 
 }
 set_party_name = { 
-    ideology = neutrality 
+    ideology = neutrality
     long_name = NOD_neutrality_party_long 
     name = NOD_neutrality_party
 }

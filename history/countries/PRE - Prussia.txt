@@ -1,0 +1,44 @@
+﻿# PRE neutrality (no) [57, 10, 3, 30]
+capital = 64
+
+# oob = ""
+
+set_research_slots = 2
+set_stability = 0.72
+set_war_support = 0
+
+set_convoys = 500
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2000.5.28"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { # Total: 100% = 96 (1.0)
+	democratic = 57
+	communism = 10
+	fascism = 3
+	neutrality = 30
+}
+
+set_party_name = {
+	ideology = democratic
+	long_name = "Democratic Party"
+	name = "Democratic Party"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Faschist Party"
+	name = "Faschist Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Free Party"
+	name = "Free Party"
+}
