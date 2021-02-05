@@ -1,25 +1,25 @@
-﻿# USA neutrality (yes) [14.000000000000002, 35.0, 28.000000000000004, 23.0]
+﻿# USA neutrality (yes) [12, 36, 6, 46]
 capital = 361
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.54
+set_stability = 0.87
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "2005.1.12"
+	last_election = "2005.2.14"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 233 (1.0)
-	democratic = 14.000000000000002
-	communism = 35.0
-	fascism = 28.000000000000004
-	neutrality = 23.0
+set_popularities = { # Total: 100% = 192 (1.0)
+	democratic = 12
+	communism = 36
+	fascism = 6
+	neutrality = 46
 }
 
 set_party_name = {

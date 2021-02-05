@@ -1,25 +1,25 @@
-﻿# PRU democratic (yes) [28.999999999999996, 9.0, 24.0, 38.0]
+﻿# PRU fascism (no) [22, 6, 65, 7]
 capital = 303
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.81
+set_stability = 0.43
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2007.7.3"
+	ruling_party = fascism
+	last_election = "1996.3.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 258 (1.0)
-	democratic = 28.999999999999996
-	communism = 9.0
-	fascism = 24.0
-	neutrality = 38.0
+set_popularities = { # Total: 100% = 127 (1.0)
+	democratic = 22
+	communism = 6
+	fascism = 65
+	neutrality = 7
 }
 
 set_party_name = {

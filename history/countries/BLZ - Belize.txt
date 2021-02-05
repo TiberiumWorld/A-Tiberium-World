@@ -1,25 +1,25 @@
-﻿# BLZ democratic (yes) [43.0, 18.0, 1.0, 38.0]
+﻿# BLZ democratic (yes) [28, 1, 21, 50]
 capital = 311
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.3
+set_stability = 0.81
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "2009.11.5"
+	last_election = "2008.6.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 197 (1.0)
-	democratic = 43.0
-	communism = 18.0
-	fascism = 1.0
-	neutrality = 38.0
+set_popularities = { # Total: 100% = 175 (1.0)
+	democratic = 28
+	communism = 1
+	fascism = 21
+	neutrality = 50
 }
 
 set_party_name = {

@@ -1,25 +1,25 @@
-﻿# MLI democratic (no) [20.0, 31.0, 27.0, 22.0]
+﻿# MLI neutrality (yes) [28, 14, 30, 28]
 capital = 556
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.39
+set_stability = 0.76
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1999.2.27"
+	ruling_party = neutrality
+	last_election = "2006.6.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 290 (1.0)
-	democratic = 20.0
-	communism = 31.0
-	fascism = 27.0
-	neutrality = 22.0
+set_popularities = { # Total: 100% = 252 (1.0)
+	democratic = 28
+	communism = 14
+	fascism = 30
+	neutrality = 28
 }
 
 set_party_name = {

@@ -1,25 +1,25 @@
-﻿# CAN neutrality (yes) [28.000000000000004, 27.0, 13.0, 32.0]
+﻿# CAN communism (no) [31, 23, 21, 25]
 capital = 276
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.68
+set_stability = 0.91
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "2006.10.14"
+	ruling_party = communism
+	last_election = "1999.1.9"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 320 (1.0)
-	democratic = 28.000000000000004
-	communism = 27.0
-	fascism = 13.0
-	neutrality = 32.0
+set_popularities = { # Total: 100% = 332 (1.0)
+	democratic = 31
+	communism = 23
+	fascism = 21
+	neutrality = 25
 }
 
 set_party_name = {

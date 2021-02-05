@@ -1,25 +1,25 @@
-﻿# NZL communism (no) [11.0, 14.000000000000002, 36.0, 39.0]
+﻿# NZL communism (no) [19, 32, 12, 37]
 capital = 284
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.52
+set_stability = 0.93
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1996.6.23"
+	last_election = "2000.8.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 219 (1.0)
-	democratic = 11.0
-	communism = 14.000000000000002
-	fascism = 36.0
-	neutrality = 39.0
+set_popularities = { # Total: 100% = 260 (1.0)
+	democratic = 19
+	communism = 32
+	fascism = 12
+	neutrality = 37
 }
 
 set_party_name = {

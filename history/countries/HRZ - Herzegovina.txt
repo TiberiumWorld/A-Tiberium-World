@@ -1,25 +1,25 @@
-﻿# HRZ democratic (no) [15.0, 34.0, 33.0, 18.0]
+﻿# HRZ neutrality (yes) [20, 11, 28, 41]
 capital = 804
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.33
+set_stability = 0.92
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1995.9.14"
+	ruling_party = neutrality
+	last_election = "2008.10.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 250 (1.0)
-	democratic = 15.0
-	communism = 34.0
-	fascism = 33.0
-	neutrality = 18.0
+set_popularities = { # Total: 100% = 281 (1.0)
+	democratic = 20
+	communism = 11
+	fascism = 28
+	neutrality = 41
 }
 
 set_party_name = {

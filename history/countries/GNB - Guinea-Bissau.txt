@@ -1,25 +1,25 @@
-﻿# GNB neutrality (yes) [21.0, 26.0, 10.0, 43.0]
+﻿# GNB fascism (no) [4, 2, 62, 32]
 capital = 296
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.9
+set_stability = 0.38
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "2005.5.20"
+	ruling_party = fascism
+	last_election = "1997.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 152 (1.0)
-	democratic = 21.0
-	communism = 26.0
-	fascism = 10.0
-	neutrality = 43.0
+set_popularities = { # Total: 100% = 162 (1.0)
+	democratic = 4
+	communism = 2
+	fascism = 62
+	neutrality = 32
 }
 
 set_party_name = {

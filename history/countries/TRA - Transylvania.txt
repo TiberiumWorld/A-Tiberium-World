@@ -1,25 +1,25 @@
-﻿# TRA democratic (yes) [37.0, 36.0, 4.0, 23.0]
+﻿# TRA neutrality (yes) [45, 17, 3, 35]
 capital = 84
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.34
+set_stability = 0.54
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2006.4.15"
+	ruling_party = neutrality
+	last_election = "2007.11.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 260 (1.0)
-	democratic = 37.0
-	communism = 36.0
-	fascism = 4.0
-	neutrality = 23.0
+set_popularities = { # Total: 100% = 200 (1.0)
+	democratic = 45
+	communism = 17
+	fascism = 3
+	neutrality = 35
 }
 
 set_party_name = {

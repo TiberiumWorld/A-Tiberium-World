@@ -1,25 +1,25 @@
-﻿# MRT neutrality (yes) [27.0, 14.000000000000002, 27.0, 32.0]
+﻿# MRT neutrality (yes) [33, 19, 17, 31]
 capital = 557
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.59
+set_stability = 0.69
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "2005.5.2"
+	last_election = "2005.11.21"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 325 (1.0)
-	democratic = 27.0
-	communism = 14.000000000000002
-	fascism = 27.0
-	neutrality = 32.0
+set_popularities = { # Total: 100% = 221 (1.0)
+	democratic = 33
+	communism = 19
+	fascism = 17
+	neutrality = 31
 }
 
 set_party_name = {

@@ -1,25 +1,25 @@
-﻿# BHU neutrality (yes) [16.0, 19.0, 37.0, 28.000000000000004]
+﻿# BHU neutrality (yes) [5, 17, 17, 61]
 capital = 324
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.48
+set_stability = 0.27
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "2007.1.19"
+	last_election = "2005.5.21"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 154 (1.0)
-	democratic = 16.0
-	communism = 19.0
-	fascism = 37.0
-	neutrality = 28.000000000000004
+set_popularities = { # Total: 100% = 185 (1.0)
+	democratic = 5
+	communism = 17
+	fascism = 17
+	neutrality = 61
 }
 
 set_party_name = {

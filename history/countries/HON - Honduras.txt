@@ -1,25 +1,25 @@
-﻿# HON democratic (no) [53.0, 7.000000000000001, 17.0, 23.0]
+﻿# HON communism (yes) [19, 48, 15, 18]
 capital = 312
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.29
+set_stability = 0.53
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2002.8.3"
+	ruling_party = communism
+	last_election = "2006.5.2"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 221 (1.0)
-	democratic = 53.0
-	communism = 7.000000000000001
-	fascism = 17.0
-	neutrality = 23.0
+set_popularities = { # Total: 100% = 209 (1.0)
+	democratic = 19
+	communism = 48
+	fascism = 15
+	neutrality = 18
 }
 
 set_party_name = {

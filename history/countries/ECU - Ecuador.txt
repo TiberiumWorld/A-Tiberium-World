@@ -1,25 +1,25 @@
-﻿# ECU democratic (yes) [43.0, 24.0, 9.0, 24.0]
+﻿# ECU neutrality (no) [17, 9, 42, 32]
 capital = 305
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.69
+set_stability = 0.72
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2006.6.11"
+	ruling_party = neutrality
+	last_election = "2004.7.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 172 (1.0)
-	democratic = 43.0
-	communism = 24.0
-	fascism = 9.0
-	neutrality = 24.0
+set_popularities = { # Total: 100% = 189 (1.0)
+	democratic = 17
+	communism = 9
+	fascism = 42
+	neutrality = 32
 }
 
 set_party_name = {

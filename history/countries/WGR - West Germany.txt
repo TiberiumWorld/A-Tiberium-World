@@ -1,25 +1,25 @@
-﻿# WGR democratic (yes) [31.0, 3.0, 34.0, 32.0]
+﻿# WGR neutrality (yes) [2, 30, 27, 41]
 capital = 64
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.23
+set_stability = 0.52
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2009.5.20"
+	ruling_party = neutrality
+	last_election = "2005.11.28"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 233 (1.0)
-	democratic = 31.0
-	communism = 3.0
-	fascism = 34.0
-	neutrality = 32.0
+set_popularities = { # Total: 100% = 208 (1.0)
+	democratic = 2
+	communism = 30
+	fascism = 27
+	neutrality = 41
 }
 
 set_party_name = {

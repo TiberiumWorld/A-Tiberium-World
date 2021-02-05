@@ -1,25 +1,25 @@
-﻿# HAN fascism (no) [6.0, 42.0, 23.0, 28.999999999999996]
+﻿# HAN democratic (yes) [34, 15, 22, 29]
 capital = 59
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.28
+set_stability = 0.22
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "2000.3.15"
+	ruling_party = democratic
+	last_election = "2006.11.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 233 (1.0)
-	democratic = 6.0
-	communism = 42.0
-	fascism = 23.0
-	neutrality = 28.999999999999996
+set_popularities = { # Total: 100% = 336 (1.0)
+	democratic = 34
+	communism = 15
+	fascism = 22
+	neutrality = 29
 }
 
 set_party_name = {

@@ -1,25 +1,25 @@
-﻿# COR communism (yes) [36.0, 30.0, 13.0, 21.0]
+﻿# COR democratic (yes) [39, 2, 31, 28]
 capital = 1
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.45
+set_stability = 0.72
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = communism
-	last_election = "2007.7.6"
+	ruling_party = democratic
+	last_election = "2008.11.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 277 (1.0)
-	democratic = 36.0
-	communism = 30.0
-	fascism = 13.0
-	neutrality = 21.0
+set_popularities = { # Total: 100% = 252 (1.0)
+	democratic = 39
+	communism = 2
+	fascism = 31
+	neutrality = 28
 }
 
 set_party_name = {

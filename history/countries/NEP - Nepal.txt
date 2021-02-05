@@ -1,25 +1,25 @@
-﻿# NEP fascism (no) [29.000000000000004, 9.0, 41.0, 21.0]
+﻿# NEP fascism (no) [33, 13, 25, 29]
 capital = 323
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.87
+set_stability = 0.56
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = fascism
-	last_election = "1998.6.19"
+	last_election = "1998.5.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 232 (1.0)
-	democratic = 29.000000000000004
-	communism = 9.0
-	fascism = 41.0
-	neutrality = 21.0
+set_popularities = { # Total: 100% = 301 (1.0)
+	democratic = 33
+	communism = 13
+	fascism = 25
+	neutrality = 29
 }
 
 set_party_name = {

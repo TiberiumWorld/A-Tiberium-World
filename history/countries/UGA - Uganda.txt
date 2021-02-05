@@ -1,25 +1,25 @@
-﻿# UGA neutrality (yes) [14.000000000000002, 28.000000000000004, 28.999999999999996, 28.999999999999996]
+﻿# UGA neutrality (no) [34, 15, 34, 17]
 capital = 548
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.49
+set_stability = 0.55
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "2008.7.12"
+	last_election = "1998.1.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 282 (1.0)
-	democratic = 14.000000000000002
-	communism = 28.000000000000004
-	fascism = 28.999999999999996
-	neutrality = 28.999999999999996
+set_popularities = { # Total: 100% = 205 (1.0)
+	democratic = 34
+	communism = 15
+	fascism = 34
+	neutrality = 17
 }
 
 set_party_name = {

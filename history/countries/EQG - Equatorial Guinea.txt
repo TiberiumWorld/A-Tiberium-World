@@ -1,25 +1,25 @@
-﻿# EQG communism (yes) [27.0, 38.0, 3.0, 32.0]
+﻿# EQG neutrality (no) [14, 29, 31, 26]
 capital = 297
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.93
+set_stability = 0.76
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = communism
-	last_election = "2009.10.16"
+	ruling_party = neutrality
+	last_election = "2007.3.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 289 (1.0)
-	democratic = 27.0
-	communism = 38.0
-	fascism = 3.0
-	neutrality = 32.0
+set_popularities = { # Total: 100% = 228 (1.0)
+	democratic = 14
+	communism = 29
+	fascism = 31
+	neutrality = 26
 }
 
 set_party_name = {

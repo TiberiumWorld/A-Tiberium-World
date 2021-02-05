@@ -1,25 +1,25 @@
-﻿# DOM neutrality (yes) [28.000000000000004, 21.0, 14.000000000000002, 37.0]
+﻿# DOM fascism (no) [8, 6, 81, 5]
 capital = 319
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.63
+set_stability = 0.62
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "2009.11.27"
+	ruling_party = fascism
+	last_election = "1996.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 246 (1.0)
-	democratic = 28.000000000000004
-	communism = 21.0
-	fascism = 14.000000000000002
-	neutrality = 37.0
+set_popularities = { # Total: 100% = 103 (1.0)
+	democratic = 8
+	communism = 6
+	fascism = 81
+	neutrality = 5
 }
 
 set_party_name = {

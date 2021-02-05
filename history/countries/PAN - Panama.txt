@@ -1,25 +1,25 @@
-﻿# PAN democratic (yes) [23.0, 26.0, 28.000000000000004, 23.0]
+﻿# PAN democratic (yes) [29, 34, 20, 17]
 capital = 304
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.56
+set_stability = 0.82
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "2008.6.13"
+	last_election = "2008.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 337 (1.0)
-	democratic = 23.0
-	communism = 26.0
-	fascism = 28.000000000000004
-	neutrality = 23.0
+set_popularities = { # Total: 100% = 187 (1.0)
+	democratic = 29
+	communism = 34
+	fascism = 20
+	neutrality = 17
 }
 
 set_party_name = {

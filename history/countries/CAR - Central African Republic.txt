@@ -1,25 +1,25 @@
-﻿# CAR fascism (no) [24.0, 7.000000000000001, 32.0, 37.0]
+﻿# CAR democratic (yes) [14, 31, 23, 32]
 capital = 660
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.31
+set_stability = 0.44
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1995.7.19"
+	ruling_party = democratic
+	last_election = "2005.5.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 273 (1.0)
-	democratic = 24.0
-	communism = 7.000000000000001
-	fascism = 32.0
-	neutrality = 37.0
+set_popularities = { # Total: 100% = 241 (1.0)
+	democratic = 14
+	communism = 31
+	fascism = 23
+	neutrality = 32
 }
 
 set_party_name = {

@@ -1,25 +1,25 @@
-﻿# SIE democratic (yes) [42.0, 26.0, 26.0, 6.0]
+﻿# SIE democratic (yes) [32, 28, 19, 21]
 capital = 700
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.35
+set_stability = 0.51
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "2007.7.5"
+	last_election = "2008.9.4"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 217 (1.0)
-	democratic = 42.0
-	communism = 26.0
-	fascism = 26.0
-	neutrality = 6.0
+set_popularities = { # Total: 100% = 358 (1.0)
+	democratic = 32
+	communism = 28
+	fascism = 19
+	neutrality = 21
 }
 
 set_party_name = {

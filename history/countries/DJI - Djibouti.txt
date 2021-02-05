@@ -1,25 +1,25 @@
-﻿# DJI neutrality (no) [33.0, 11.0, 33.0, 23.0]
+﻿# DJI democratic (yes) [29, 18, 25, 28]
 capital = 268
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.33
+set_stability = 0.71
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "2001.9.4"
+	ruling_party = democratic
+	last_election = "2006.4.2"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 282 (1.0)
-	democratic = 33.0
-	communism = 11.0
-	fascism = 33.0
-	neutrality = 23.0
+set_popularities = { # Total: 100% = 330 (1.0)
+	democratic = 29
+	communism = 18
+	fascism = 25
+	neutrality = 28
 }
 
 set_party_name = {

@@ -1,25 +1,25 @@
-﻿# ALG democratic (yes) [38.0, 53.0, 6.000000000000001, 3.0]
+﻿# ALG neutrality (yes) [61, 1, 11, 27]
 capital = 459
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.62
+set_stability = 0.38
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2006.7.11"
+	ruling_party = neutrality
+	last_election = "2009.1.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 80 (1.0)
-	democratic = 38.0
-	communism = 53.0
-	fascism = 6.000000000000001
-	neutrality = 3.0
+set_popularities = { # Total: 100% = 152 (1.0)
+	democratic = 61
+	communism = 1
+	fascism = 11
+	neutrality = 27
 }
 
 set_party_name = {

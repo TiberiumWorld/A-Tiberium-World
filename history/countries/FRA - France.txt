@@ -1,25 +1,25 @@
-﻿# FRA democratic (no) [18.0, 22.0, 36.0, 24.0]
+﻿# FRA democratic (yes) [14, 34, 11, 41]
 capital = 16
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.97
+set_stability = 0.32
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "2006.7.16"
+	last_election = "2006.9.25"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 250 (1.0)
-	democratic = 18.0
-	communism = 22.0
-	fascism = 36.0
-	neutrality = 24.0
+set_popularities = { # Total: 100% = 239 (1.0)
+	democratic = 14
+	communism = 34
+	fascism = 11
+	neutrality = 41
 }
 
 set_party_name = {

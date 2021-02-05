@@ -1,25 +1,25 @@
-﻿# CRC communism (yes) [28.999999999999996, 25.0, 30.0, 16.0]
+﻿# CRC democratic (no) [38, 5, 40, 17]
 capital = 695
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.67
+set_stability = 0.86
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = communism
-	last_election = "2009.5.8"
+	ruling_party = democratic
+	last_election = "1997.9.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 231 (1.0)
-	democratic = 28.999999999999996
-	communism = 25.0
-	fascism = 30.0
-	neutrality = 16.0
+set_popularities = { # Total: 100% = 252 (1.0)
+	democratic = 38
+	communism = 5
+	fascism = 40
+	neutrality = 17
 }
 
 set_party_name = {

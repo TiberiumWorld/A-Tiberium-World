@@ -1,25 +1,25 @@
-﻿# DEN neutrality (no) [15.0, 27.0, 18.0, 40.0]
+﻿# DEN neutrality (yes) [1, 30, 24, 45]
 capital = 37
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.64
+set_stability = 0.54
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "2008.3.10"
+	last_election = "2006.8.9"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 250 (1.0)
-	democratic = 15.0
-	communism = 27.0
-	fascism = 18.0
-	neutrality = 40.0
+set_popularities = { # Total: 100% = 271 (1.0)
+	democratic = 1
+	communism = 30
+	fascism = 24
+	neutrality = 45
 }
 
 set_party_name = {

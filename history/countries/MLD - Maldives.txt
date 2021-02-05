@@ -1,25 +1,25 @@
-﻿# MLD communism (no) [20.0, 28.000000000000004, 24.0, 28.000000000000004]
+﻿# MLD democratic (yes) [46, 1, 20, 33]
 capital = 281
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.39
+set_stability = 0.97
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = communism
-	last_election = "2001.4.21"
+	ruling_party = democratic
+	last_election = "2006.8.7"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 352 (1.0)
-	democratic = 20.0
-	communism = 28.000000000000004
-	fascism = 24.0
-	neutrality = 28.000000000000004
+set_popularities = { # Total: 100% = 150 (1.0)
+	democratic = 46
+	communism = 1
+	fascism = 20
+	neutrality = 33
 }
 
 set_party_name = {

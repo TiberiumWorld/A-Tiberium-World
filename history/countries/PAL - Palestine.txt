@@ -1,25 +1,25 @@
-﻿# PAL fascism (no) [25.0, 26.0, 36.0, 13.0]
+﻿# PAL communism (no) [43, 42, 7, 8]
 capital = 554
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.51
+set_stability = 0.57
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "2005.9.11"
+	ruling_party = communism
+	last_election = "2002.4.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 262 (1.0)
-	democratic = 25.0
-	communism = 26.0
-	fascism = 36.0
-	neutrality = 13.0
+set_popularities = { # Total: 100% = 181 (1.0)
+	democratic = 43
+	communism = 42
+	fascism = 7
+	neutrality = 8
 }
 
 set_party_name = {

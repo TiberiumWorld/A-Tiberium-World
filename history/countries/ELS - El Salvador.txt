@@ -1,25 +1,25 @@
-﻿# ELS communism (no) [24.0, 36.0, 5.0, 35.0]
+﻿# ELS democratic (yes) [37, 17, 24, 22]
 capital = 314
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.74
+set_stability = 0.29
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = communism
-	last_election = "2003.9.18"
+	ruling_party = democratic
+	last_election = "2008.2.2"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 269 (1.0)
-	democratic = 24.0
-	communism = 36.0
-	fascism = 5.0
-	neutrality = 35.0
+set_popularities = { # Total: 100% = 270 (1.0)
+	democratic = 37
+	communism = 17
+	fascism = 24
+	neutrality = 22
 }
 
 set_party_name = {

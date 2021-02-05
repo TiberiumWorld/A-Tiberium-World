@@ -1,25 +1,25 @@
-﻿# JOR neutrality (yes) [32.0, 2.0, 33.0, 33.0]
+﻿# JOR neutrality (no) [11, 48, 5, 36]
 capital = 455
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.9
+set_stability = 0.62
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "2005.7.24"
+	last_election = "2004.7.3"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 266 (1.0)
-	democratic = 32.0
-	communism = 2.0
-	fascism = 33.0
-	neutrality = 33.0
+set_popularities = { # Total: 100% = 113 (1.0)
+	democratic = 11
+	communism = 48
+	fascism = 5
+	neutrality = 36
 }
 
 set_party_name = {

@@ -1,25 +1,25 @@
-﻿# NAV democratic (yes) [26.0, 24.0, 13.0, 37.0]
+﻿# NAV democratic (yes) [30, 19, 24, 27]
 capital = 792
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.3
+set_stability = 0.71
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "2008.10.28"
+	last_election = "2008.6.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 257 (1.0)
-	democratic = 26.0
-	communism = 24.0
-	fascism = 13.0
-	neutrality = 37.0
+set_popularities = { # Total: 100% = 334 (1.0)
+	democratic = 30
+	communism = 19
+	fascism = 24
+	neutrality = 27
 }
 
 set_party_name = {

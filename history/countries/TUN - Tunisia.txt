@@ -1,25 +1,25 @@
-﻿# TUN fascism (no) [27.0, 30.0, 26.0, 17.0]
+﻿# TUN democratic (yes) [27, 22, 25, 26]
 capital = 458
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.67
+set_stability = 0.36
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1999.11.19"
+	ruling_party = democratic
+	last_election = "2008.7.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 328 (1.0)
-	democratic = 27.0
-	communism = 30.0
-	fascism = 26.0
-	neutrality = 17.0
+set_popularities = { # Total: 100% = 251 (1.0)
+	democratic = 27
+	communism = 22
+	fascism = 25
+	neutrality = 26
 }
 
 set_party_name = {

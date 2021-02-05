@@ -1,25 +1,25 @@
-﻿# SIK communism (no) [10.0, 30.0, 38.0, 22.0]
+﻿# SIK fascism (no) [11, 29, 28, 32]
 capital = 617
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.51
+set_stability = 0.42
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = communism
-	last_election = "2001.4.25"
+	ruling_party = fascism
+	last_election = "2007.11.2"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 209 (1.0)
-	democratic = 10.0
-	communism = 30.0
-	fascism = 38.0
-	neutrality = 22.0
+set_popularities = { # Total: 100% = 295 (1.0)
+	democratic = 11
+	communism = 29
+	fascism = 28
+	neutrality = 32
 }
 
 set_party_name = {

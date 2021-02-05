@@ -1,25 +1,25 @@
-﻿# UAE democratic (yes) [45.0, 12.0, 38.0, 5.0]
+﻿# UAE communism (no) [16, 39, 11, 34]
 capital = 690
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.42
+set_stability = 0.68
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2007.7.7"
+	ruling_party = communism
+	last_election = "2001.5.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 145 (1.0)
-	democratic = 45.0
-	communism = 12.0
-	fascism = 38.0
-	neutrality = 5.0
+set_popularities = { # Total: 100% = 220 (1.0)
+	democratic = 16
+	communism = 39
+	fascism = 11
+	neutrality = 34
 }
 
 set_party_name = {

@@ -1,25 +1,25 @@
-﻿# KOR democratic (yes) [32.0, 38.0, 20.0, 10.0]
+﻿# KOR neutrality (yes) [5, 36, 43, 16]
 capital = 525 #South Korea - Seoul or Busan
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.38
+set_stability = 0.87
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2009.5.24"
+	ruling_party = neutrality
+	last_election = "2008.8.6"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 251 (1.0)
-	democratic = 32.0
-	communism = 38.0
-	fascism = 20.0
-	neutrality = 10.0
+set_popularities = { # Total: 100% = 199 (1.0)
+	democratic = 5
+	communism = 36
+	fascism = 43
+	neutrality = 16
 }
 
 set_party_name = {

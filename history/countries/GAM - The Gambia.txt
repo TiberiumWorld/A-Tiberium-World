@@ -1,25 +1,25 @@
-﻿# GAM democratic (yes) [55.00000000000001, 20.0, 4.0, 21.0]
+﻿# GAM neutrality (yes) [19, 18, 16, 47]
 capital = 701
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.49
+set_stability = 0.24
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2007.8.7"
+	ruling_party = neutrality
+	last_election = "2006.10.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 192 (1.0)
-	democratic = 55.00000000000001
-	communism = 20.0
-	fascism = 4.0
-	neutrality = 21.0
+set_popularities = { # Total: 100% = 232 (1.0)
+	democratic = 19
+	communism = 18
+	fascism = 16
+	neutrality = 47
 }
 
 set_party_name = {

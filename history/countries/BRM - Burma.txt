@@ -1,25 +1,25 @@
-﻿# BRM democratic (yes) [21.0, 24.0, 28.000000000000004, 27.0]
+﻿# BRM neutrality (yes) [21, 19, 13, 47]
 capital = 288
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.43
+set_stability = 0.94
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2008.11.27"
+	ruling_party = neutrality
+	last_election = "2009.11.4"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 308 (1.0)
-	democratic = 21.0
-	communism = 24.0
-	fascism = 28.000000000000004
-	neutrality = 27.0
+set_popularities = { # Total: 100% = 253 (1.0)
+	democratic = 21
+	communism = 19
+	fascism = 13
+	neutrality = 47
 }
 
 set_party_name = {

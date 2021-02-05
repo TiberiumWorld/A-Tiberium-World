@@ -1,25 +1,25 @@
-﻿# FIJ democratic (yes) [18.0, 19.0, 32.0, 31.0]
+﻿# FIJ democratic (no) [41, 10, 17, 32]
 capital = 636
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.47
+set_stability = 0.28
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "2005.2.20"
+	last_election = "2001.3.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 215 (1.0)
-	democratic = 18.0
-	communism = 19.0
-	fascism = 32.0
-	neutrality = 31.0
+set_popularities = { # Total: 100% = 296 (1.0)
+	democratic = 41
+	communism = 10
+	fascism = 17
+	neutrality = 32
 }
 
 set_party_name = {

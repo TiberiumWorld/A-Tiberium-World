@@ -1,25 +1,25 @@
-﻿# CYP democratic (yes) [21.0, 45.0, 9.0, 25.0]
+﻿# CYP fascism (no) [48, 1, 31, 20]
 capital = 183
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.9
+set_stability = 0.98
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2008.2.24"
+	ruling_party = fascism
+	last_election = "2003.3.2"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 221 (1.0)
-	democratic = 21.0
-	communism = 45.0
-	fascism = 9.0
-	neutrality = 25.0
+set_popularities = { # Total: 100% = 118 (1.0)
+	democratic = 48
+	communism = 1
+	fascism = 31
+	neutrality = 20
 }
 
 set_party_name = {

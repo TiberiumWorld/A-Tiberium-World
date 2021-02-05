@@ -1,25 +1,25 @@
-﻿# ISR democratic (yes) [42.0, 44.0, 6.0, 8.0]
+﻿# ISR democratic (yes) [41, 19, 35, 5]
 capital = 554
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.29
+set_stability = 0.27
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "2008.7.12"
+	last_election = "2007.4.23"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 157 (1.0)
-	democratic = 42.0
-	communism = 44.0
-	fascism = 6.0
-	neutrality = 8.0
+set_popularities = { # Total: 100% = 197 (1.0)
+	democratic = 41
+	communism = 19
+	fascism = 35
+	neutrality = 5
 }
 
 set_party_name = {

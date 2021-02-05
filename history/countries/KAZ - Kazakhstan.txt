@@ -1,25 +1,25 @@
-﻿# KAZ neutrality (yes) [17.0, 24.0, 20.0, 39.0]
+﻿# KAZ democratic (no) [13, 38, 39, 10]
 capital = 586 #Almaty
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.67
+set_stability = 0.79
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "2006.4.25"
+	ruling_party = democratic
+	last_election = "1999.2.16"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 309 (1.0)
-	democratic = 17.0
-	communism = 24.0
-	fascism = 20.0
-	neutrality = 39.0
+set_popularities = { # Total: 100% = 248 (1.0)
+	democratic = 13
+	communism = 38
+	fascism = 39
+	neutrality = 10
 }
 
 set_party_name = {

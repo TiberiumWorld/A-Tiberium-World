@@ -1,25 +1,25 @@
-﻿# GDL neutrality (yes) [9.0, 32.0, 16.0, 43.0]
+﻿# GDL democratic (yes) [11, 20, 37, 32]
 capital = 694
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.29
+set_stability = 0.56
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "2006.5.20"
+	ruling_party = democratic
+	last_election = "2005.5.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 244 (1.0)
-	democratic = 9.0
-	communism = 32.0
-	fascism = 16.0
-	neutrality = 43.0
+set_popularities = { # Total: 100% = 260 (1.0)
+	democratic = 11
+	communism = 20
+	fascism = 37
+	neutrality = 32
 }
 
 set_party_name = {

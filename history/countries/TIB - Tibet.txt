@@ -1,25 +1,25 @@
-﻿# TIB democratic (no) [15.0, 36.0, 32.0, 17.0]
+﻿# TIB communism (no) [10, 26, 28, 36]
 capital = 757
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.82
+set_stability = 0.39
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2006.2.7"
+	ruling_party = communism
+	last_election = "2002.9.7"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 215 (1.0)
-	democratic = 15.0
-	communism = 36.0
-	fascism = 32.0
-	neutrality = 17.0
+set_popularities = { # Total: 100% = 228 (1.0)
+	democratic = 10
+	communism = 26
+	fascism = 28
+	neutrality = 36
 }
 
 set_party_name = {

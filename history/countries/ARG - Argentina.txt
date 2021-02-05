@@ -1,25 +1,25 @@
-﻿# ARG democratic (yes) [24.0, 8.0, 40.0, 28.000000000000004]
+﻿# ARG communism (no) [23, 18, 29, 30]
 capital = 278
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.81
+set_stability = 0.33
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2008.9.9"
+	ruling_party = communism
+	last_election = "2001.4.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 209 (1.0)
-	democratic = 24.0
-	communism = 8.0
-	fascism = 40.0
-	neutrality = 28.000000000000004
+set_popularities = { # Total: 100% = 203 (1.0)
+	democratic = 23
+	communism = 18
+	fascism = 29
+	neutrality = 30
 }
 
 set_party_name = {

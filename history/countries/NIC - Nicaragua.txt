@@ -1,25 +1,25 @@
-﻿# NIC fascism (no) [8.0, 22.0, 23.0, 47.0]
+﻿# NIC democratic (yes) [55, 7, 1, 37]
 capital = 317
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.72
+set_stability = 0.98
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1996.7.2"
+	ruling_party = democratic
+	last_election = "2005.8.7"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 206 (1.0)
-	democratic = 8.0
-	communism = 22.0
-	fascism = 23.0
-	neutrality = 47.0
+set_popularities = { # Total: 100% = 204 (1.0)
+	democratic = 55
+	communism = 7
+	fascism = 1
+	neutrality = 37
 }
 
 set_party_name = {

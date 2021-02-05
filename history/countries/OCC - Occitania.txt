@@ -1,25 +1,25 @@
-﻿# OCC neutrality (no) [8.0, 5.0, 32.0, 55.00000000000001]
+﻿# OCC communism (no) [33, 53, 6, 8]
 capital = 31
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.3
+set_stability = 0.37
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1995.4.28"
+	ruling_party = communism
+	last_election = "1998.1.21"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 158 (1.0)
-	democratic = 8.0
-	communism = 5.0
-	fascism = 32.0
-	neutrality = 55.00000000000001
+set_popularities = { # Total: 100% = 49 (1.0)
+	democratic = 33
+	communism = 53
+	fascism = 6
+	neutrality = 8
 }
 
 set_party_name = {

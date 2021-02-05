@@ -1,25 +1,25 @@
-﻿# BUL democratic (yes) [56.99999999999999, 23.0, 10.0, 10.0]
+﻿# BUL democratic (yes) [35, 5, 34, 26]
 capital = 48
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.91
+set_stability = 0.4
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "2006.6.19"
+	last_election = "2006.5.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 159 (1.0)
-	democratic = 56.99999999999999
-	communism = 23.0
-	fascism = 10.0
-	neutrality = 10.0
+set_popularities = { # Total: 100% = 263 (1.0)
+	democratic = 35
+	communism = 5
+	fascism = 34
+	neutrality = 26
 }
 
 set_party_name = {

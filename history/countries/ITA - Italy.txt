@@ -1,25 +1,25 @@
-﻿# ITA fascism (no) [15.0, 8.0, 49.0, 28.000000000000004]
+﻿# ITA democratic (yes) [36, 20, 38, 6]
 capital = 2
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.31
+set_stability = 0.99
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1997.1.3"
+	ruling_party = democratic
+	last_election = "2007.4.4"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 197 (1.0)
-	democratic = 15.0
-	communism = 8.0
-	fascism = 49.0
-	neutrality = 28.000000000000004
+set_popularities = { # Total: 100% = 248 (1.0)
+	democratic = 36
+	communism = 20
+	fascism = 38
+	neutrality = 6
 }
 
 set_party_name = {

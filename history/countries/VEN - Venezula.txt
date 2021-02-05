@@ -1,25 +1,25 @@
-﻿# VEN communism (no) [6.0, 36.0, 28.000000000000004, 30.0]
+﻿# VEN fascism (no) [20, 5, 35, 40]
 capital = 307
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.81
+set_stability = 0.55
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = communism
-	last_election = "1997.7.25"
+	ruling_party = fascism
+	last_election = "1999.9.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 178 (1.0)
-	democratic = 6.0
-	communism = 36.0
-	fascism = 28.000000000000004
-	neutrality = 30.0
+set_popularities = { # Total: 100% = 248 (1.0)
+	democratic = 20
+	communism = 5
+	fascism = 35
+	neutrality = 40
 }
 
 set_party_name = {

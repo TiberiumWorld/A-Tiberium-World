@@ -1,25 +1,25 @@
-﻿# SRL communism (no) [16.0, 39.0, 18.0, 27.0]
+﻿# SRL neutrality (yes) [26, 16, 8, 50]
 capital = 422
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.69
+set_stability = 0.72
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = communism
-	last_election = "1995.10.16"
+	ruling_party = neutrality
+	last_election = "2009.9.21"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 239 (1.0)
-	democratic = 16.0
-	communism = 39.0
-	fascism = 18.0
-	neutrality = 27.0
+set_popularities = { # Total: 100% = 62 (1.0)
+	democratic = 26
+	communism = 16
+	fascism = 8
+	neutrality = 50
 }
 
 set_party_name = {

@@ -1,25 +1,25 @@
-﻿# CUB democratic (no) [49.0, 8.0, 3.0, 40.0]
+﻿# CUB fascism (no) [4, 4, 55, 37]
 capital = 315
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.86
+set_stability = 0.34
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2007.1.2"
+	ruling_party = fascism
+	last_election = "2002.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 195 (1.0)
-	democratic = 49.0
-	communism = 8.0
-	fascism = 3.0
-	neutrality = 40.0
+set_popularities = { # Total: 100% = 185 (1.0)
+	democratic = 4
+	communism = 4
+	fascism = 55
+	neutrality = 37
 }
 
 set_party_name = {

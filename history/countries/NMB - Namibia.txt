@@ -1,25 +1,25 @@
-﻿# NMB communism (no) [9.0, 52.0, 25.0, 14.000000000000002]
+﻿# NMB communism (no) [20, 22, 9, 49]
 capital = 541
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.6
+set_stability = 0.22
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1999.4.23"
+	last_election = "2006.8.4"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 212 (1.0)
-	democratic = 9.0
-	communism = 52.0
-	fascism = 25.0
-	neutrality = 14.000000000000002
+set_popularities = { # Total: 100% = 174 (1.0)
+	democratic = 20
+	communism = 22
+	fascism = 9
+	neutrality = 49
 }
 
 set_party_name = {

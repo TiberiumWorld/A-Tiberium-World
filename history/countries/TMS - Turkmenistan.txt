@@ -1,25 +1,25 @@
-﻿# TMS democratic (yes) [60.0, 33.0, 1.0, 6.000000000000001]
+﻿# TMS fascism (no) [27, 32, 16, 25]
 capital = 584
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.31
+set_stability = 0.24
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2007.9.25"
+	ruling_party = fascism
+	last_election = "2004.6.25"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 200 (1.0)
-	democratic = 60.0
-	communism = 33.0
-	fascism = 1.0
-	neutrality = 6.000000000000001
+set_popularities = { # Total: 100% = 225 (1.0)
+	democratic = 27
+	communism = 32
+	fascism = 16
+	neutrality = 25
 }
 
 set_party_name = {

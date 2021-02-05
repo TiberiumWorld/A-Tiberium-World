@@ -1,25 +1,25 @@
-﻿# GXC democratic (yes) [47.0, 32.0, 9.0, 12.0]
+﻿# GXC communism (no) [11, 30, 30, 29]
 capital = 594
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.34
+set_stability = 0.73
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2008.9.12"
+	ruling_party = communism
+	last_election = "2008.3.9"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 159 (1.0)
-	democratic = 47.0
-	communism = 32.0
-	fascism = 9.0
-	neutrality = 12.0
+set_popularities = { # Total: 100% = 315 (1.0)
+	democratic = 11
+	communism = 30
+	fascism = 30
+	neutrality = 29
 }
 
 set_party_name = {

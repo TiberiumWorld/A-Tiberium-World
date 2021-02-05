@@ -1,25 +1,25 @@
-﻿# GHA fascism (no) [53.0, 9.0, 36.0, 2.0]
+﻿# GHA democratic (yes) [23, 33, 27, 17]
 capital = 274
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.4
+set_stability = 0.74
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1997.3.13"
+	ruling_party = democratic
+	last_election = "2007.2.21"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 174 (1.0)
-	democratic = 53.0
-	communism = 9.0
-	fascism = 36.0
-	neutrality = 2.0
+set_popularities = { # Total: 100% = 262 (1.0)
+	democratic = 23
+	communism = 33
+	fascism = 27
+	neutrality = 17
 }
 
 set_party_name = {

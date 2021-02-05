@@ -1,25 +1,25 @@
-﻿# AZR democratic (yes) [26.0, 52.0, 21.0, 1.0]
+﻿# AZR communism (no) [23, 35, 17, 25]
 capital = 229 #Baku
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.45
+set_stability = 0.51
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2009.3.26"
+	ruling_party = communism
+	last_election = "2005.10.17"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 151 (1.0)
-	democratic = 26.0
-	communism = 52.0
-	fascism = 21.0
-	neutrality = 1.0
+set_popularities = { # Total: 100% = 185 (1.0)
+	democratic = 23
+	communism = 35
+	fascism = 17
+	neutrality = 25
 }
 
 set_party_name = {

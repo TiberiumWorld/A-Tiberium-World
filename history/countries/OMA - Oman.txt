@@ -1,25 +1,25 @@
-﻿# OMA communism (no) [32.0, 41.0, 8.0, 19.0]
+﻿# OMA fascism (no) [34, 12, 38, 16]
 capital = 294
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.57
+set_stability = 0.23
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = communism
-	last_election = "2008.9.20"
+	ruling_party = fascism
+	last_election = "1995.10.28"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 300 (1.0)
-	democratic = 32.0
-	communism = 41.0
-	fascism = 8.0
-	neutrality = 19.0
+set_popularities = { # Total: 100% = 211 (1.0)
+	democratic = 34
+	communism = 12
+	fascism = 38
+	neutrality = 16
 }
 
 set_party_name = {

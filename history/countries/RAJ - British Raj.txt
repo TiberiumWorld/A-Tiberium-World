@@ -1,25 +1,25 @@
-﻿# RAJ democratic (yes) [23.0, 28.999999999999996, 27.0, 21.0]
+﻿# RAJ democratic (yes) [25, 17, 26, 32]
 capital = 439
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.35
+set_stability = 0.78
 set_war_support = 0
 
 set_convoys = 500
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "2006.7.26"
+	last_election = "2007.6.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 305 (1.0)
-	democratic = 23.0
-	communism = 28.999999999999996
-	fascism = 27.0
-	neutrality = 21.0
+set_popularities = { # Total: 100% = 219 (1.0)
+	democratic = 25
+	communism = 17
+	fascism = 26
+	neutrality = 32
 }
 
 set_party_name = {
