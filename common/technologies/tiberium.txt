@@ -1,0 +1,347 @@
+technologies = {
+    basic_tiberium_sequencing = {
+        
+        research_speed_factor = 0.05
+
+        path = {
+            leads_to_tech = tiberium_applications
+            research_cost_coeff = 1
+        }
+        
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 14 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+
+    tiberium_applications = {
+        
+        research_speed_factor = 0.05
+
+        path = {
+            leads_to_tech = tiberium_processing
+            research_cost_coeff = 1
+        }
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 14 y = 2 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+
+    tiberium_processing = {
+
+        path = {
+            leads_to_tech = advanced_tiberium_processing
+            research_cost_coeff = 1
+        }
+
+        path = {
+            leads_to_tech = tiberium_military_theory
+            research_cost_coeff = 1
+        }
+
+		production_factory_max_efficiency_factor = 0.1
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 14 y = 4 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+
+    advanced_tiberium_processing = {
+        path = {
+            leads_to_tech = complex_tiberium_sequencing
+            research_cost_coeff = 1
+        }
+
+		production_factory_max_efficiency_factor = 0.1
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 14 y = 6 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+
+    complex_tiberium_sequencing = {
+        path = {
+            leads_to_tech = tiberium_liquidization
+            research_cost_coeff = 1
+        }
+
+        path = {
+            leads_to_tech = tiberium_seeding 
+            research_cost_coeff = 1
+        }
+        research_speed_factor = 0.05
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 14 y = 8 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+
+    tiberium_seeding = {
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 13 y = 10 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+
+    tiberium_liquidization = {
+        path = {
+            leads_to_tech = liquid_tiberium_processing
+            research_cost_coeff = 1
+        }
+
+		production_factory_max_efficiency_factor = 0.1
+        research_speed_factor = 0.05
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 14 y = 12 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+
+    liquid_tiberium_processing = {
+
+		production_factory_max_efficiency_factor = 0.1
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 14 y = 14 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+
+    tiberium_military_theory = {
+        path = {
+            leads_to_tech = simple_tiberium_applications
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 18 y = 6 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+
+    simple_tiberium_applications = {
+        path = {
+            leads_to_tech = tiberium_engines
+            research_cost_coeff = 1
+        }
+        path = {
+            leads_to_tech = tiberium_weapons
+            research_cost_coeff = 1
+        }
+        path = {
+            leads_to_tech = supersoldier_question
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 18 y = 8 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+
+    tiberium_engines = {
+        path = {
+            leads_to_tech = tiberium_plating
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 16 y = 10 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+    tiberium_weapons = {
+        path = {
+            leads_to_tech = laser_weapons
+            research_cost_coeff = 1
+        }
+        path = {
+            leads_to_tech = advanced_ballistics
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 18 y = 10 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+    supersoldier_question = {
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 20 y = 10 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+
+    tiberium_plating = {
+
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 16 y = 12 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+    laser_weapons = {
+        
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 17.5 y = 12 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+    advanced_ballistics = {
+        
+        research_cost = 1
+        folder = {
+            name = electronics_folder
+            position = { x = 19 y = 12 }
+        }
+
+        ai_will_do = {
+            factor = 30
+        }
+
+        categories = {
+            tiberium
+        }
+    }
+}

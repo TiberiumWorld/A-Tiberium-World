@@ -6,7 +6,7 @@ state={
 	state_category = rural
 	
 	history={
-		owner = NOD
+		owner = NOB
 		victory_points = {
 			3320 3
 		}
@@ -15,9 +15,17 @@ state={
 			industrial_complex = 1
 			air_base = 5
 		}
-		add_core_of = NOD
-		add_core_of = POL
+		add_core_of = NOB
 		add_core_of = LIT
+
+		set_state_flag = tiberium_infestation_1_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_1 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_1 }
+			province = {
+				all_provinces = yes
+			}
+		}
 	}
 
 	provinces={

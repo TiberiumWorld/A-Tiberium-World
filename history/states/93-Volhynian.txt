@@ -6,18 +6,27 @@ state={
 		victory_points = {
 			6557 1
 		}
-		#victory_points = {
-		#	572 5
-		#}
-		#victory_points = {
-		#	513 1
-		#}
+		victory_points = {
+			572 5
+		}
+		victory_points = {
+			513 1
+		}
 		owner = UKR
 		buildings = {
 			infrastructure = 5
-
 		}
 
+		add_core_of = UKR
+	
+		set_state_flag = tiberium_infestation_1_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_1 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_1 }
+			province = {
+				all_provinces = yes
+			}
+		}
 	}
 
 	provinces={

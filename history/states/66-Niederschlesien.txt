@@ -15,23 +15,32 @@ state={
 		victory_points = {
 			9570 10 
 		}
-		#victory_points = {
-		#	552 1
-		#}
-		#victory_points = {
-		#	3545 1
-		#}
+		victory_points = {
+			552 1
+		}
+		victory_points = {
+			3545 1
+		}
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
-			air_base = 6
+			industrial_complex = 3
+			air_base = 10
+			arms_factory = 3
 		}
 		add_core_of = POL
+
+		set_state_flag = tiberium_infestation_1_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_1 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_1 }
+			province = {
+				all_provinces = yes
+			}
+		}
 
 		1939.1.1 = {
 			buildings = {
 				air_base = 10
-				arms_factory = 3
 				industrial_complex = 3
 			}
 		}

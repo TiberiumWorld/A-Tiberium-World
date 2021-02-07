@@ -6,6 +6,13 @@ set_war_support = 0
 
 set_convoys = 500
 
+NOB = {
+	set_autonomy = {
+		target = BLR
+		autonomy_state = autonomy_nod_puppet
+	}
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1954.11.8"

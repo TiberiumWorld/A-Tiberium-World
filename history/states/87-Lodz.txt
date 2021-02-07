@@ -1,0 +1,32 @@
+state={
+	id=87
+	name="STATE_87"
+	manpower = 2632000
+	
+	state_category = town
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			air_base = 3
+		}
+		victory_points = {
+			9508 10
+		}
+		add_core_of = POL
+
+		set_state_flag = tiberium_infestation_2_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_2 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_2 }
+			province = {
+				all_provinces = yes
+			}
+		}
+	}
+
+	provinces={
+		493 584 9439 9508 9546 11428 11515 
+	}
+}

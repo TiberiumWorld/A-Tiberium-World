@@ -6,7 +6,7 @@ set_war_support = 0.6
 
 set_convoys = 500
 
-create_faction = faction_nod
+create_faction = "Brotherhood of NOD"
 
 set_politics = {
 	ruling_party = fascism
@@ -23,23 +23,23 @@ set_popularities = {
 
 set_party_name = { 
     ideology = democratic
-    long_name = NOD_democratic_party_long 
-    name = NOD_democratic_party
+    long_name= STR_NOD  
+    name = STR_NOD 
 }
 set_party_name = { 
     ideology = communism
-    long_name = NOD_communism_party_long 
-    name = NOD_communism_party
+    long_name= STR_NOD  
+    name = STR_NOD 
 }
 set_party_name = { 
     ideology = fascism
-    long_name = "Brotherhood of NOD" 
-    name = "Brotherhood of NOD" 
+    long_name= STR_NOD 
+    name = STR_NOD 
 }
 set_party_name = { 
     ideology = neutrality
-    long_name = NOD_neutrality_party_long 
-    name = NOD_neutrality_party
+    long_name= STR_NOD  
+    name = STR_NOD 
 }
 
 # Leaders

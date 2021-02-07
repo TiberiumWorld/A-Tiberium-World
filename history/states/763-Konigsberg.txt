@@ -6,7 +6,7 @@ state={
 	state_category = city
 
 	history={
-		owner = NOD
+		owner = SOV
 
 		victory_points = {
 			6332 10 
@@ -27,8 +27,16 @@ state={
 			air_base = 6
 		}
 		
-		add_core_of = NOD
 		add_core_of = SOV
+		
+		set_state_flag = tiberium_infestation_2_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_2 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_2 }
+			province = {
+				all_provinces = yes
+			}
+		}
 	}
 
 	provinces={

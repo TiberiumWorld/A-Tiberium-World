@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = NOD
+		owner = SER
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

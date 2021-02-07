@@ -3,7 +3,7 @@ state={
 	name="STATE_97"
 
 	history={
-		owner = NOD
+		owner = POL
 		victory_points = {
 			11301 3
 		}
@@ -19,8 +19,16 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = NOD
 		add_core_of = POL
+
+		set_state_flag = tiberium_infestation_2_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_2 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_2 }
+			province = {
+				all_provinces = yes
+			}
+		}
 
 	}
 

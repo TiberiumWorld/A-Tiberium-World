@@ -1,5 +1,4 @@
-﻿# GER fascism (no) [28, 2, 69, 1]
-capital = 64
+﻿capital = 64
 
 # oob = ""
 
@@ -10,15 +9,15 @@ set_war_support = 0
 set_convoys = 500
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "2005.1.6"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 102 (1.0)
-	democratic = 28
-	communism = 2
-	fascism = 69
+set_popularities = {
+	democratic = 69
+	communism = 6
+	fascism = 22
 	neutrality = 1
 }
 

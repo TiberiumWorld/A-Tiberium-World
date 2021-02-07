@@ -24,8 +24,18 @@ state={
 			air_base = 3
 		}
 		add_core_of = SLO
+		
+		set_state_flag = tiberium_infestation_1_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_1 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_1 }
+			province = {
+				all_provinces = yes
+			}
+		}
 	}
 
+	
 	provinces={
 		541 3484 3537 9539 9692 11522 11539 
 	}

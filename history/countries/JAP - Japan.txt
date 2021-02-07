@@ -1,5 +1,5 @@
 ﻿# JAP neutrality (yes) [6, 4, 36, 54]
-﻿capital = 282
+capital = 282
 
 # oob = ""
 

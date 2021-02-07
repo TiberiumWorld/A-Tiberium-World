@@ -1,5 +1,5 @@
 ﻿# CHL democratic (yes) [24, 30, 23, 23]
-﻿capital = 279
+capital = 279
 
 # oob = ""
 

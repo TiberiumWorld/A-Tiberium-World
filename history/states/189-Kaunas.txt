@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = NOD
+		owner = NOB
 		victory_points = {
 			9483 5
 		}
@@ -24,10 +24,19 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = NOD
+		add_core_of = NOB
 		add_core_of = LIT
+	
+		set_state_flag = tiberium_infestation_1_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_1 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_1 }
+			province = {
+				all_provinces = yes
+			}
+		}
 	}
-
+	
 	provinces={
 		530 3337 3354 6229 6314 6360 6376 9483 9499 9731 
 	}

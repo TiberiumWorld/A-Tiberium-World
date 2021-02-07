@@ -21,9 +21,16 @@ state={
 
 		}
 		add_core_of = GRE
+
+		set_state_flag = tiberium_infestation_1_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_1 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_1 }
+			province = {
+				all_provinces = yes
+			}
+		}
 	}
 
-	provinces={
-		9791 9930 11774 11905 
-	}
+	provinces = { 9791 9930 11774 11905 }
 }

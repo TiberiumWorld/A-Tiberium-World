@@ -1,12 +1,12 @@
 atw_debug_decisions = {
-    debug_set_GDI_UN_TAG = {
+    debug_set_GDI_TS_TAG = {
 
-        allowed = {
-            original_tag = GDI
-        }
+        allowed = {}
 
-        available = {
-            original_tag = GDI
+        available = {}
+
+        visible = {
+            always = yes
         }
 
         cost = 0
@@ -15,23 +15,18 @@ atw_debug_decisions = {
             factor = 0
         }
 
-        visible = {
-            original_tag = GDI
-        }
-
         complete_effect = {
-            set_cosmetic_tag = GDI_UN
-            set_faction_name = faction_gdi
+            set_cosmetic_tag = GDI_TS
         }
     }
-    debug_set_GDI_UNGDI_TAG = {
+    debug_set_GDI_TD_TAG = {
 
-        allowed = {
-            original_tag = GDI
-        }
+        allowed = {}
 
-        available = {
-            original_tag = GDI
+        available = {}
+
+        visible = {
+            always = yes
         }
 
         cost = 0
@@ -40,23 +35,18 @@ atw_debug_decisions = {
             factor = 0
         }
 
-        visible = {
-            original_tag = GDI
-        }
-
         complete_effect = {
-            set_cosmetic_tag = GDI_UNGDI
-            set_faction_name = faction_ungdi
+            set_cosmetic_tag = GDI_TD
         }
-    }    
-    debug_set_GDI_GDI_TAG = {
+    }
+    debug_set_GDI_TW_TAG = {
 
-        allowed = {
-            original_tag = GDI
-        }
+        allowed = {}
 
-        available = {
-            original_tag = GDI
+        available = {}
+
+        visible = {
+            always = yes
         }
 
         cost = 0
@@ -65,13 +55,10 @@ atw_debug_decisions = {
             factor = 0
         }
 
-        visible = {
-            original_tag = GDI
-        }
+
 
         complete_effect = {
-            set_cosmetic_tag = GDI
-            set_faction_name = faction_ungda
+            set_cosmetic_tag = GDI_TW
         }
-    }    
+    }
 }

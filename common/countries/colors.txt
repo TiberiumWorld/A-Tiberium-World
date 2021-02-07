@@ -12,6 +12,11 @@ NOA = {
 	color = rgb { 10 10 10 }
 	color_ui = rgb { 10 10 10 }
 }
+NOB = {
+	color = rgb { 10 10 10 }
+	color_ui = rgb { 10 10 10 }
+}
+
 
 
 GER = {

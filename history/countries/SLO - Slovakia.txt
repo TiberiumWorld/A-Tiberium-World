@@ -1,25 +1,30 @@
-﻿# SLO democratic (yes) [24, 28, 2, 46]
-capital = 70
+﻿capital = 70
 
 # oob = ""
 
 set_research_slots = 2
 set_stability = 0.72
-set_war_support = 0
+set_war_support = 0.2
 
 set_convoys = 500
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "2008.1.5"
-	election_frequency = 48
-	elections_allowed = yes
+NOD = {
+	set_autonomy = {
+		target = SLO
+		autonomy_state = autonomy_nod_puppet
+	}
 }
-set_popularities = { # Total: 100% = 169 (1.0)
-	democratic = 24
+set_politics = {
+	ruling_party = fascism
+	last_election = "2000.5.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 4
 	communism = 28
-	fascism = 2
-	neutrality = 46
+	fascism = 42
+	neutrality = 26
 }
 
 set_party_name = {
@@ -34,11 +39,13 @@ set_party_name = {
 }
 set_party_name = {
 	ideology = fascism
-	long_name = "Faschist Party"
-	name = "Faschist Party"
+	long_name= STR_NOD
+	name = STR_NOD
 }
 set_party_name = {
 	ideology = neutrality
 	long_name = "Free Party"
 	name = "Free Party"
 }
+
+set_cosmetic_tag = NOD_PS
