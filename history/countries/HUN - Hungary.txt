@@ -16,16 +16,16 @@ NOD = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1996.10.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 3
+	democratic = 47
 	communism = 15
 	fascism = 35
-	neutrality = 47
+	neutrality = 3
 }
 
 set_party_name = {

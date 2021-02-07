@@ -15,29 +15,33 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 69
+	democratic = 66
 	communism = 6
 	fascism = 22
-	neutrality = 1
+	neutrality = 6
 }
 
 set_party_name = {
 	ideology = democratic
-	long_name = "Democratic Party"
-	name = "Democratic Party"
+	long_name = "Christian Democratic Union of Germany"
+	name = "CDU"
 }
 set_party_name = {
 	ideology = communism
-	long_name = "Communist Party"
-	name = "Communist Party"
+	long_name = "Communist Party of Germany"
+	name = "KPD"
 }
 set_party_name = {
 	ideology = fascism
-	long_name = "Faschist Party"
-	name = "Faschist Party"
+	long_name = "Alternative for Germany"
+	name = "AFD"
 }
 set_party_name = {
 	ideology = neutrality
-	long_name = "Free Party"
-	name = "Free Party"
+	long_name = "Free Democratic Party"
+	name = "FDP"
+}
+
+add_ideas = {
+	gdi_armes_supplier
 }

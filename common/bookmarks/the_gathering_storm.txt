@@ -4,21 +4,41 @@ bookmarks = {
 		desc = "FIRST_TIBERIUM_WAR_DESC"
 		date = 2010.6.10.12
 		picture = "GFX_select_date_1936"
-		default_country = "GDI"
+		default_country = "USA"
 		default = yes
-		
-		"GDI"={
-			history = "GDA_GATHERING_STORM_DESC"
+
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				gdi_armes_supplier
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				gdi_armes_supplier
+			}
+			focuses = {
+			}
+		}
+		"GER"={
+			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 			}
 			focuses = {
 			}
 		}
+		
 		"NOD"={
 			history = "NOD_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
+				generic_brotherhood_of_nod
 			}
 			focuses = {
 			}
@@ -27,6 +47,25 @@ bookmarks = {
 			history = "NOA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
+				generic_brotherhood_of_nod
+			}
+			focuses = {
+			}
+		}
+		"NOB"={
+			history = "NOB_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				generic_brotherhood_of_nod
+			}
+			focuses = {
+			}
+		}
+		"NOS"={
+			history = "NOS_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				generic_brotherhood_of_nod
 			}
 			focuses = {
 			}

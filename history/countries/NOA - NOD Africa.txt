@@ -51,3 +51,7 @@ create_country_leader = { # Seth
 	expire = "2040.1.1"
 	ideology = nod_sethism
 }
+
+add_ideas = {
+	generic_brotherhood_of_nod
+}

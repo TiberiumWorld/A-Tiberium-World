@@ -41,3 +41,7 @@ set_party_name = {
 	long_name = "Green Party "
 	name = "Green Party "
 }
+
+add_ideas = {
+	gdi_armes_supplier
+}

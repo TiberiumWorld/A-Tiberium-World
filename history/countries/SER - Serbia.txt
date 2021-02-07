@@ -8,23 +8,24 @@ set_war_support = 0
 
 set_convoys = 500
 
+NOD = {
+	set_autonomy = {
+		target = SER
+		autonomy_state = autonomy_nod_region
+	}
+}
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1980.9.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 3
 	communism = 14
 	fascism = 55
 	neutrality = 28
-}
-NOD = {
-	set_autonomy = {
-		target = SER
-		autonomy_state = autonomy_nod_region
-	}
 }
 
 set_party_name = {

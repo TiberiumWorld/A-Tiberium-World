@@ -1,0 +1,22 @@
+ideas = {
+
+	country = {
+		generic_brotherhood_of_nod = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_brotherhood_of_nod
+			
+			modifier = {
+			}
+		}
+	}
+}
