@@ -1,25 +1,31 @@
-﻿# TUR communism (no) [3, 49, 12, 36]
-capital = 49
+﻿capital = 49
 
 # oob = ""
 
 set_research_slots = 2
-set_stability = 0.99
-set_war_support = 0
+set_stability = 0.40
+set_war_support = 0.2
 
 set_convoys = 500
 
+NOD = {
+	set_autonomy = {
+		target = TUR
+		autonomy_state = autonomy_nod_puppet
+	}
+}
+
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1999.8.25"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 123 (1.0)
+set_popularities = {
 	democratic = 3
-	communism = 49
-	fascism = 12
-	neutrality = 36
+	communism = 12
+	fascism = 36
+	neutrality = 49
 }
 
 set_party_name = {
@@ -34,11 +40,13 @@ set_party_name = {
 }
 set_party_name = {
 	ideology = fascism
-	long_name = "Faschist Party"
-	name = "Faschist Party"
+	long_name = STR_NOD
+	name = STR_NOD
 }
 set_party_name = {
 	ideology = neutrality
 	long_name = "Free Party"
 	name = "Free Party"
 }
+
+set_cosmetic_tag = NOD_PS

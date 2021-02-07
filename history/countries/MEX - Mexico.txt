@@ -1,5 +1,5 @@
 ﻿# MEX neutrality (no) [23, 33, 8, 36]
-﻿capital = 277
+capital = 277
 
 # oob = ""
 

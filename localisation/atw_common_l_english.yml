@@ -1,5 +1,13 @@
 ﻿l_english:
+ FIRST_TIBERIUM_WAR_NAME:0 "First Tiberium War"
+ FIRST_TIBERIUM_WAR_DESC:0 ""
+
  faction_nod:0 "Brotherhood of Nod"
  faction_ungda:0 "United Nations Global Defense Agency"
  faction_ungdi:0 "United Nations Global Defense Initiative"
  faction_gdi:0 "Global Defense Initiative"
+
+ faction_gdi:0 "Global Defense Initiative"
+
+ STR_NOD:0 "Brotherhood of NOD"
+ STR_NOD_TAG:0 "NOD"

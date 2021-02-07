@@ -1,5 +1,5 @@
 ﻿# CRO democratic (yes) [40, 23, 33, 4]
-﻿capital = 109
+capital = 109
 
 # oob = ""
 

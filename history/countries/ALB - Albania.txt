@@ -9,6 +9,13 @@ set_war_support = 0
 
 set_convoys = 500
 
+NOD = {
+	set_autonomy = {
+		target = ALB
+		autonomy_state = autonomy_nod_puppet
+	}
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "2003.10.22"
@@ -42,3 +49,5 @@ set_party_name = {
 	long_name = "Free Party"
 	name = "Free Party"
 }
+
+set_cosmetic_tag = NOD_PS

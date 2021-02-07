@@ -18,6 +18,15 @@ state={
 			infrastructure = 5
 		}
 		add_core_of = BLR
+	
+		set_state_flag = tiberium_infestation_1_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_1 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_1 }
+			province = {
+				all_provinces = yes
+			}
+		}
 	}
 
 	provinces={

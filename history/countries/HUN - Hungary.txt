@@ -1,4 +1,3 @@
-﻿# HUN neutrality (yes) [13, 15, 3, 69]
 ﻿capital = 43
 
 # oob = ""
@@ -9,17 +8,24 @@ set_war_support = 0
 
 set_convoys = 500
 
+NOD = {
+	set_autonomy = {
+		target = HUN
+		autonomy_state = autonomy_nod_puppet
+	}
+}
+
 set_politics = {
 	ruling_party = neutrality
-	last_election = "2009.10.12"
+	last_election = "1996.10.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 159 (1.0)
-	democratic = 13
+set_popularities = {
+	democratic = 3
 	communism = 15
-	fascism = 3
-	neutrality = 69
+	fascism = 35
+	neutrality = 47
 }
 
 set_party_name = {
@@ -34,11 +40,13 @@ set_party_name = {
 }
 set_party_name = {
 	ideology = fascism
-	long_name = "Faschist Party"
-	name = "Faschist Party"
+	long_name= STR_NOD
+	name = STR_NOD
 }
 set_party_name = {
 	ideology = neutrality
 	long_name = "Free Party"
 	name = "Free Party"
 }
+
+set_cosmetic_tag = NOD_PS

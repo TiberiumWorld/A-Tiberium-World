@@ -1,5 +1,4 @@
-﻿# USA neutrality (yes) [12, 36, 6, 46]
-capital = 361
+﻿capital = 361
 
 # oob = ""
 
@@ -16,10 +15,10 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = { # Total: 100% = 192 (1.0)
-	democratic = 12
-	communism = 36
-	fascism = 6
-	neutrality = 46
+	democratic = 80
+	communism = 10
+	fascism = 5
+	neutrality = 5
 }
 
 set_party_name = {

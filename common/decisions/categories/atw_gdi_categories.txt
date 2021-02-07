@@ -1,0 +1,6 @@
+atw_gdi_decisions = {
+	icon = generic_research
+	visible = {
+		always = yes
+	}
+}

@@ -1,4 +1,5 @@
 GDI	= "countries/Global Defense Initiative.txt"
+
 NOD	= "countries/Brotherhood of Nod.txt"
-BLR	= "countries/Belarus.txt"
 NOA	= "countries/Brotherhood of Nod Africa.txt"
+NOB	= "countries/Brotherhood of Nod Baltic.txt"

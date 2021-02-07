@@ -5,7 +5,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = NOD
+		owner = NOB
 		victory_points = {
 			9221 1 
 		}
@@ -17,11 +17,19 @@ state={
 			}
 
 		}
-		add_core_of = NOD
+		add_core_of = NOB
 		add_core_of = EST
 
+		set_state_flag = tiberium_infestation_1_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_1 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_1 }
+			province = {
+				all_provinces = yes
+			}
+		}
 	}
-
+	
 	provinces={
 		592 4640 6099 6178 6408 9221 9485 11057 11443 13127 
 	}

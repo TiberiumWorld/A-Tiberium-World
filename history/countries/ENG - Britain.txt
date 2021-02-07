@@ -1,5 +1,4 @@
-﻿# ENG fascism (no) [27, 25, 20, 28]
-capital = 126
+﻿capital = 126
 
 # oob = ""
 
@@ -10,35 +9,35 @@ set_war_support = 0
 set_convoys = 500
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1999.5.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 350 (1.0)
-	democratic = 27
+set_popularities = {
+	democratic = 57
 	communism = 25
-	fascism = 20
-	neutrality = 28
+	fascism = 10
+	neutrality = 8
 }
 
 set_party_name = {
 	ideology = democratic
-	long_name = "Democratic Party"
-	name = "Democratic Party"
+	long_name = "Conservative Party"
+	name = "Conservative Party"
 }
 set_party_name = {
 	ideology = communism
-	long_name = "Communist Party"
-	name = "Communist Party"
+	long_name = "Communist Party of Britain"
+	name = "Communist Party of Britain"
 }
 set_party_name = {
 	ideology = fascism
-	long_name = "Faschist Party"
-	name = "Faschist Party"
+	long_name = "British Democrats"
+	name = "British Democrats"
 }
 set_party_name = {
 	ideology = neutrality
-	long_name = "Free Party"
-	name = "Free Party"
+	long_name = "Green Party "
+	name = "Green Party "
 }

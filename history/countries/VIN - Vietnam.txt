@@ -1,5 +1,5 @@
 ﻿# VIN fascism (no) [15, 34, 47, 4]
-﻿capital = 671 #Hanoi
+capital = 671 #Hanoi
 
 # oob = ""
 

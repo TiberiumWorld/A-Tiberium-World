@@ -1,0 +1,30 @@
+state={
+	id=98
+	name="STATE_98"
+	manpower = 1412100
+	
+	state_category = rural
+	history={
+		victory_points = {
+			3230 5
+		}
+		owner = POL
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = POL
+
+		set_state_flag = tiberium_infestation_3_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_3 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_3 }
+			province = {
+				all_provinces = yes
+			}
+		}
+	}
+
+	provinces={
+		548 3230 6259 6321 6401 6567 9290 9316 11385 
+	}
+}

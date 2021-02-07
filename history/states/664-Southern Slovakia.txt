@@ -10,7 +10,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = CZE
+		owner = HUN
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -18,18 +18,19 @@ state={
 		victory_points = {
 			6573 1 
 		}
-		add_core_of = CZE
+		
 		add_claim_by = HUN
-
-		1939.3.14 = {
-			owner = HUN
-			controller = HUN
-			remove_claim_by = HUN
-			add_core_of = HUN
-			add_core_of = SLO
+	
+		set_state_flag = tiberium_infestation_2_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_2 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_2 }
+			province = {
+				all_provinces = yes
+			}
 		}
 	}
-	
+
 	provinces={
 		3565 3716 6561 6573 9537 11679 
 	}

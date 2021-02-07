@@ -1,0 +1,36 @@
+
+state={
+	id=802
+	name="STATE_802"
+
+	history={
+		victory_points = {
+			6940 3 
+		}
+		owner = SER
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = YUG
+		add_core_of = KOS
+		add_core_of = SER
+
+		set_state_flag = tiberium_infestation_2_flag
+		add_dynamic_modifier = { modifier = tiberium_infestation_state_2 } 
+		add_province_modifier = {
+			static_modifiers = { tiberium_infestation_2 }
+			province = {
+				all_provinces = yes
+			}
+		}
+
+	}
+
+	provinces={
+		6940 9849 9874 9890 
+	}
+	manpower=616000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
