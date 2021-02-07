@@ -24,10 +24,10 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = { # Total: 100% = 142 (1.0)
-	democratic = 44
+	democratic = 27
 	communism = 3
-	fascism = 7
-	neutrality = 46
+	fascism = 44
+	neutrality = 26
 }
 
 set_party_name = {

@@ -1,0 +1,22 @@
+ideas = {
+
+	country = {
+		gdi_armes_supplier = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gdi_armes_supplier
+			
+			modifier = {
+			}
+		}
+	}
+}

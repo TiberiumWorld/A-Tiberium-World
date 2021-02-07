@@ -1,0 +1,15 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_generic_brotherhood_of_nod"
+		texturefile = "gfx/interface/ideas/idea_generic_brotherhood_of_nod.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_united_nations"
+		texturefile = "gfx/interface/ideas/idea_united_nations.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gdi_armes_supplier"
+		texturefile = "gfx/interface/ideas/idea_global_defence_initiative_armsSupplier.dds"
+	}
+}

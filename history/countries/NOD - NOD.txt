@@ -105,3 +105,7 @@ create_country_leader = { # Kane
 		guerilla_warfare_expert
 	}
 }
+
+add_ideas = {
+	generic_brotherhood_of_nod
+}

@@ -16,29 +16,33 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = { # Total: 100% = 208 (1.0)
-	democratic = 25
-	communism = 12
-	fascism = 42
-	neutrality = 21
+	democratic = 30
+	communism = 40
+	fascism = 20
+	neutrality = 10
 }
 
 set_party_name = {
 	ideology = democratic
-	long_name = "Democratic Party"
-	name = "Democratic Party"
+	long_name = "People's Freedom Party"
+	name = "PARNAS"
 }
 set_party_name = {
 	ideology = communism
-	long_name = "Communist Party"
-	name = "Communist Party"
+	long_name = "Communist Party of the Soviet Union"
+	name = "CPSU"
 }
 set_party_name = {
 	ideology = fascism
-	long_name = "Faschist Party"
-	name = "Faschist Party"
+	long_name = "Liberal Democratic Party"
+	name = "LDPR"
 }
 set_party_name = {
 	ideology = neutrality
-	long_name = "Free Party"
-	name = "Free Party"
+	long_name = "New People"
+	name = "NP"
+}
+
+add_ideas = {
+	gdi_armes_supplier
 }
