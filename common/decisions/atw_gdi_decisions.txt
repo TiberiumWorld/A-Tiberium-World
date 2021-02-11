@@ -23,11 +23,29 @@ atw_gdi_decisions = {
                 }
                 add_compliance = 100
                 transfer_state = 13
-                transfer_state = 191
-
                 set_capital = 13
 
                 13 = {
+                    set_compliance = 100
+                    force_disable_resistance = {
+                        clear = yes
+                        occupier = GDI
+                        occupied = EST
+                    }
+                }
+                191 = {
+                    set_compliance = 100
+                    force_disable_resistance = {
+                        clear = yes
+                        occupier = GDI
+                        occupied = EST
+                    }
+                }
+
+                declare_war_on = {
+                    target = EST
+                    type = annex_everything
+                }
                     force_disable_resistance = GDI
                     set_compliance = 100
                 }
