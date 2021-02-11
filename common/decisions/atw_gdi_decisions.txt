@@ -23,31 +23,30 @@ atw_gdi_decisions = {
                 }
                 add_compliance = 100
                 transfer_state = 13
-                transfer_state = 191
 
                 set_capital = 13
 
                 13 = {
-                    force_disable_resistance = GDI
                     set_compliance = 100
+                    force_disable_resistance = {
+                        clear = yes
+                        occupier = GDI
+                        occupied = EST
+                    }
                 }
                 191 = {
-                    force_disable_resistance = GDI
                     set_compliance = 100
+                    force_disable_resistance = {
+                        clear = yes
+                        occupier = GDI
+                        occupied = EST
+                    }
                 }
-                set_province_controller = 11057
-            }
-            EST = {
-                set_province_controller = 308
-                set_province_controller = 11291
-                set_province_controller = 6381
-                set_province_controller = 6178
-                set_province_controller = 9221
-                set_province_controller = 6408
-                set_province_controller = 9485
-                set_province_controller = 592
-                set_province_controller = 185
-                set_province_controller = 6201
+
+                declare_war_on = {
+                    target = EST
+                    type = annex_everything
+                }
             }
         }
     }
