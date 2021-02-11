@@ -29,21 +29,7 @@ state={
 		}
 		add_core_of = POL
 
-		set_state_flag = tiberium_infestation_1_flag
-		add_dynamic_modifier = { modifier = tiberium_infestation_state_1 } 
-		add_province_modifier = {
-			static_modifiers = { tiberium_infestation_1 }
-			province = {
-				all_provinces = yes
-			}
-		}
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 10
-				industrial_complex = 3
-			}
-		}
+		add_tiberium_infestation_0 = yes
 	}
 
 	provinces={

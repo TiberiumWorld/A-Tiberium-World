@@ -3,13 +3,13 @@
 set_research_slots = 2
 
 set_stability = 1.0
-set_war_support = 0
+set_war_support = 1.0
 
 set_convoys = 500
 
-create_faction = faction_ungda
+create_faction = "United Nations"
 
-set_cosmetic_tag = GDI_UN
+set_cosmetic_tag = GDI_TD
 
 set_politics = {
 	ruling_party = democratic

@@ -55,8 +55,6 @@ atw_debug_decisions = {
             factor = 0
         }
 
-
-
         complete_effect = {
             set_cosmetic_tag = GDI_TW
         }

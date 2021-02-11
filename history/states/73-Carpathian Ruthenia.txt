@@ -16,6 +16,8 @@ state={
 		add_core_of = UKR
 		add_claim_by = SLO
 		add_claim_by = POL
+
+		add_tiberium_infestation_0 = yes
 	}
 
 	provinces={

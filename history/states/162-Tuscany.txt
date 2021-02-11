@@ -33,15 +33,8 @@ state={
 
 		add_core_of = ITA
 
-		# Tiberium
-		set_state_flag = tiberium_infestation_3_flag
-		add_dynamic_modifier = { modifier = tiberium_infestation_state_3 } 
-		add_province_modifier = {
-			static_modifiers = { tiberium_infestation_3 }
-			province = {
-				all_provinces = yes
-			}
-		}
+		add_tiberium_infestation_2 = yes
+
 	}
 
 	provinces={
