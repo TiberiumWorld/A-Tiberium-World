@@ -24,14 +24,7 @@ state= {
 		}
 		add_core_of = ITA
 		
-		set_state_flag = tiberium_infestation_3_flag
-		add_dynamic_modifier = { modifier = tiberium_infestation_state_3 } 
-		add_province_modifier = {
-			static_modifiers = { tiberium_infestation_3 }
-			province = {
-				all_provinces = yes
-			}
-		}
+		add_tiberium_infestation_0 = yes
 	}
 	
 	provinces= {

@@ -14,16 +14,8 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = BLR
-	
-		set_state_flag = tiberium_infestation_2_flag
-		add_dynamic_modifier = { modifier = tiberium_infestation_state_2 } 
-		add_province_modifier = {
-			static_modifiers = { tiberium_infestation_2 }
-			province = {
-				all_provinces = yes
-			}
-		}
 
+		add_tiberium_infestation_2 = yes
 	}
 
 	provinces={
