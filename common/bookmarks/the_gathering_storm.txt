@@ -38,7 +38,7 @@ bookmarks = {
 			history = "NOD_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				generic_brotherhood_of_nod
+				brotherhood_of_nod_idea
 			}
 			focuses = {
 			}
@@ -47,7 +47,7 @@ bookmarks = {
 			history = "NOA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				generic_brotherhood_of_nod
+				brotherhood_of_nod_idea
 			}
 			focuses = {
 			}
@@ -56,7 +56,7 @@ bookmarks = {
 			history = "NOB_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				generic_brotherhood_of_nod
+				brotherhood_of_nod_idea
 			}
 			focuses = {
 			}
@@ -65,7 +65,7 @@ bookmarks = {
 			history = "NOS_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				generic_brotherhood_of_nod
+				brotherhood_of_nod_idea
 			}
 			focuses = {
 			}

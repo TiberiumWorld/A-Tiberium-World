@@ -6,13 +6,6 @@ bookmarks = {
 		picture = "GFX_select_date_1939"
 		default_country = "GER"
 		bookmarks = {
-	bookmark = {
-		name = "FIRST_TIBERIUM_WAR_NAME"
-		desc = "FIRST_TIBERIUM_WAR_DESC"
-		date = 2010.6.10.12
-		picture = "GFX_select_date_1936"
-		default_country = "USA"
-		default = yes
 
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
@@ -36,6 +29,7 @@ bookmarks = {
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
+				gdi_armes_supplier
 			}
 			focuses = {
 			}
@@ -45,7 +39,7 @@ bookmarks = {
 			history = "NOD_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				generic_brotherhood_of_nod
+				brotherhood_of_nod_idea
 			}
 			focuses = {
 			}
@@ -54,7 +48,7 @@ bookmarks = {
 			history = "NOA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				generic_brotherhood_of_nod
+				brotherhood_of_nod_idea
 			}
 			focuses = {
 			}
@@ -63,7 +57,7 @@ bookmarks = {
 			history = "NOB_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				generic_brotherhood_of_nod
+				brotherhood_of_nod_idea
 			}
 			focuses = {
 			}
@@ -72,7 +66,7 @@ bookmarks = {
 			history = "NOS_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				generic_brotherhood_of_nod
+				brotherhood_of_nod_idea
 			}
 			focuses = {
 			}
@@ -553,7 +547,7 @@ bookmarks = {
 		# }
 		
 		effect = {
-			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
 	}
