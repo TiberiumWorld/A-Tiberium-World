@@ -1,6 +1,6 @@
 ﻿l_english:
 
- Generic_NOD_party_long:0 "Brotherhood of NOD"
- Generic_NOD_party:0 "Brotherhood of NOD"
- Generic_GDI_party_long:0 "Global Defense Initiative"
- Generic_GDI_party:0 "Global Defense Initiative"
+ Generic_NOD_party_long:0 "Brotherhood of NOD Clique"
+ Generic_NOD_party:0 "NOD Clique"
+ Generic_GDI_party_long:0 "Global Defense Initiative Council"
+ Generic_GDI_party:0 "GDI Council"

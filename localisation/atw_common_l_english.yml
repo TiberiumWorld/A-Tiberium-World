@@ -1,8 +1,8 @@
 ﻿l_english:
  FIRST_TIBERIUM_WAR_NAME:0 "First Tiberium War"
- FIRST_TIBERIUM_WAR_DESC:0 ""
+ FIRST_TIBERIUM_WAR_DESC:0 "The chaos of the Second World War has finally ended; the Soviet Union has been destroyed. The world has returned to normal, or so many in the West think. A shadow organization has arisen; playing on the post-Soviet economic collapse of the East and the goodwill of the exploited peoples of the world. The Allies have disbanded, and who knows what will come next?"
 
- faction_nod:0 "Brotherhood of Nod"
+ faction_nod:0 "Brotherhood of NOD"
  faction_ungda:0 "United Nations Global Defense Agency"
  faction_ungdi:0 "United Nations Global Defense Initiative"
  faction_gdi:0 "Global Defense Initiative"

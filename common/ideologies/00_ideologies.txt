@@ -221,12 +221,15 @@ ideologies = {
 			rougeai_cabal = {
 				can_be_randomly_selected = no
 			}
+
 			rougeai_eva = {
 				can_be_randomly_selected = no
 			}
+
 			rougeai_legion = {
 				can_be_randomly_selected = no
 			}
+
 			rougeai_other = {
 				can_be_randomly_selected = no
 			}
@@ -247,9 +250,6 @@ ideologies = {
 			}
 
 			neu_anarchism = {
-			}
-			
-			neu_moderatism = {
 			}
 			
 			neu_centrism = {
