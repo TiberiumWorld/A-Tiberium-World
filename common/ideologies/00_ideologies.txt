@@ -170,16 +170,6 @@ ideologies = {
 
 			nod_ideology = {
 			}
-
-			# fascism
-			fas_fascism = {
-			}
-			
-			fas_falangism = {
-			}
-			
-			fas_rexism = {
-			}
 		}
 		
 		dynamic_faction_names = {
@@ -264,8 +254,12 @@ ideologies = {
 			
 			neu_centrism = {
 			}
+
+			neu_fascism = {
+			}
 			
 			failed_state = {
+				can_be_randomly_selected = no
 			}
 		}
 
