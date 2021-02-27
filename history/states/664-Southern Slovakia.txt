@@ -10,7 +10,8 @@ state={
 	state_category = town
 	
 	history={
-		owner = HUN
+		owner = SLO
+		add_core_of = SLO
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -18,8 +19,6 @@ state={
 		victory_points = {
 			6573 1 
 		}
-		
-		add_claim_by = HUN
 	
 		add_tiberium_infestation_1 = yes
 
