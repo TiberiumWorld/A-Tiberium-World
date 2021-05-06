@@ -6,7 +6,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = NOA
+		owner = SAU
 		victory_points = {
 			12758 1 
 		}
@@ -19,7 +19,6 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = NOA
 		add_core_of = SAU
 	}
 

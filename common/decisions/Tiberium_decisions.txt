@@ -22,7 +22,6 @@ tiberium_decisions = {
             every_country = {
                 if = {
                     limit = {
-                        has_game_rule = { rule = tiberium_rule_growth option = NORMAL }
                         any_owned_state = {
                             has_tiberium_infestation = yes
                         }
@@ -56,7 +55,6 @@ tiberium_decisions = {
             every_country = {
                 if = {
                     limit = {
-                        has_game_rule = { rule = tiberium_rule_growth option = NORMAL }
                         any_owned_state = {
                             OR = { 
                                 has_state_flag = tiberium_infestation_0_flag

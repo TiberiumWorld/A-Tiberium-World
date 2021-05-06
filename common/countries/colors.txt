@@ -4,6 +4,10 @@ GDI = {
 	color = rgb { 222 187 91 }
 	color_ui = rgb { 255 243 118 }
 }
+GDA = {
+	color = rgb { 222 187 91 }
+	color_ui = rgb { 255 243 118 }
+}
 NOD = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }

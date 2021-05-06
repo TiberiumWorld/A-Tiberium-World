@@ -1,4 +1,4 @@
-﻿# ALG neutrality (yes) [61, 1, 11, 27]
+﻿# ALG
 capital = 459
 
 # oob = ""
@@ -9,16 +9,23 @@ set_war_support = 0
 
 set_convoys = 500
 
+NOA = {
+	set_autonomy = {
+		target = ALG
+		autonomy_state = autonomy_nod_puppet
+	}
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "2009.1.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = { # Total: 100% = 152 (1.0)
-	democratic = 61
+set_popularities = {
+	democratic = 11 
 	communism = 1
-	fascism = 11
+	fascism = 61
 	neutrality = 27
 }
 
@@ -42,3 +49,5 @@ set_party_name = {
 	long_name = "Free Party"
 	name = "Free Party"
 }
+
+set_cosmetic_tag = NOD_PS
