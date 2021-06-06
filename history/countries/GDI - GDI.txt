@@ -7,7 +7,7 @@ set_war_support = 1.0
 
 set_convoys = 500
 
-create_faction = "United Nations"
+create_faction = "UNGDI African"
 
 set_cosmetic_tag = GDI_TD
 
@@ -26,23 +26,23 @@ set_popularities = {
 
 set_party_name = { 
     ideology = democratic 
-    long_name = GDI_UN_democratic_party_long 
-    name = GDI_UN_democratic_party
+    long_name = Generic_GDI_party_long 
+    name = Generic_GDI_party_long
 }
 set_party_name = { 
     ideology = communism 
-    long_name = GDI_UN_communism_party_long 
-    name = GDI_UN_communism_party
+    long_name = Generic_GDI_party_long 
+    name = Generic_GDI_party_long
 }
 set_party_name = { 
     ideology = fascism 
-    long_name = GDI_UN_fascism_party_long 
-    name = GDI_UN_fascism_party
+    long_name = Generic_GDI_party_long 
+    name = Generic_GDI_party_long
 }
 set_party_name = { 
     ideology = neutrality 
-    long_name = GDI_UN_neutrality_party_long 
-    name = GDI_UN_neutrality_party
+    long_name = Generic_GDI_party_long 
+    name = Generic_GDI_party_long
 }
 
 # Leaders

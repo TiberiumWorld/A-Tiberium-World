@@ -1,0 +1,46 @@
+﻿capital = 807
+
+set_research_slots = 2
+
+set_stability = 1.0
+set_war_support = 1.0
+
+set_convoys = 500
+
+create_faction = "UNGDI Africa"
+
+set_cosmetic_tag = GDI_TD
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1953.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 69
+	communism = 4
+	fascism = 17
+	neutrality = 10
+}
+
+set_party_name = { 
+    ideology = democratic 
+    long_name = Generic_GDI_party_long 
+    name = Generic_GDI_party_long
+}
+set_party_name = { 
+    ideology = communism 
+    long_name = Generic_GDI_party_long 
+    name = Generic_GDI_party_long
+}
+set_party_name = { 
+    ideology = fascism 
+    long_name = Generic_GDI_party_long 
+    name = Generic_GDI_party_long
+}
+set_party_name = { 
+    ideology = neutrality 
+    long_name = Generic_GDI_party_long 
+    name = Generic_GDI_party_long
+}

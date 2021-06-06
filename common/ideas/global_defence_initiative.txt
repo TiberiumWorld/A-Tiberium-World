@@ -1,6 +1,24 @@
 ideas = {
-
 	country = {
+		global_defence_initiative_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gdi_armes_supplier
+			
+			modifier = {
+				monthly_population = -1.0
+				drift_defence_factor = 0.25
+			}
+		}
 		gdi_armes_supplier = {
 
 			allowed = {

@@ -1,4 +1,5 @@
 GDI	= "countries/Global Defense Initiative.txt"
+GDA	= "countries/Global Defense Initiative Africa.txt"
 
 NOD	= "countries/Brotherhood of Nod.txt"
 NOA	= "countries/Brotherhood of Nod Africa.txt"
