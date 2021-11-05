@@ -1,0 +1,6 @@
+is_brotherhood_of_nod = { # Scope: Country
+    OR = {
+        has_idea = brotherhood_of_nod_idea
+        has_government = fascism
+    }
+}

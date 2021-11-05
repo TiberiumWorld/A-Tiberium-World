@@ -41,3 +41,8 @@ set_party_name = {
     long_name= STR_NOD  
     name = STR_NOD 
 }
+
+add_ideas = {
+	brotherhood_of_nod_idea
+	un_non_member
+}

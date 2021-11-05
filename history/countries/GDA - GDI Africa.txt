@@ -2,8 +2,8 @@
 
 set_research_slots = 2
 
-set_stability = 1.0
-set_war_support = 1.0
+set_stability = 0.7
+set_war_support = 0.2
 
 set_convoys = 500
 

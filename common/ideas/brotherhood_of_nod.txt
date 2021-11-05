@@ -12,7 +12,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_brotherhood_of_nod
+			picture = brotherhood_of_nod_idea
 			
 			modifier = {
 				drift_defence_factor = 0.25

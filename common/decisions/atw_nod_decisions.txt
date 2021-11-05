@@ -1,0 +1,34 @@
+atw_nod_decisions = {
+    debug_list_nod_nations = {
+
+        allowed = {}
+
+        available = {}
+
+        visible = {
+            always = yes
+        }
+
+        cost = 0
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        complete_effect = {
+            clear_variable = global.nod_nation_list
+            clear_array = global.nod_nation_list
+            set_variable = { var = global.nod_nation_list }
+
+            every_country = {
+                limit = {
+                    has_idea = brotherhood_of_nod_idea
+                }
+                add_to_array = { global.nod_nation_list = this.id }
+            }
+            for_each_loop = {
+                array = global.nod_nation_list
+            }
+        }
+    }
+}

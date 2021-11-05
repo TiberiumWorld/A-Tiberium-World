@@ -1,0 +1,6 @@
+atw_un_decisions = {
+	icon = generic_research
+	visible = {
+		is_un_member = yes
+	}
+}

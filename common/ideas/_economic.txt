@@ -31,7 +31,6 @@ ideas = {
 				OR = {
 					has_war_support > 0.5
 					has_war = yes
-					has_completed_focus = USA_limited_intervention
 				}
 			}
 			
@@ -64,7 +63,6 @@ ideas = {
 				OR = {
 					has_war_support > 0.75
 					has_war = yes
-					has_completed_focus = USA_limited_intervention					
 				}
 			}
 			
@@ -205,7 +203,6 @@ ideas = {
 					
 					# revert from closed_economy if we have large allies
 					has_idea = closed_economy
-					has_large_ally_not_pick_closed_economy = yes
 				}
    			}
 		}
@@ -448,7 +445,6 @@ ideas = {
 					
 					# revert from closed_economy if we have large allies
 					has_idea = closed_economy
-					has_large_ally_not_pick_closed_economy = yes
 				}
    			}
 		}
@@ -504,10 +500,6 @@ ideas = {
 				
 				modifier = {
 					factor = 0
-					
-					# don't take if we have a reasonable sized ally
-					# since they will require our trades
-					has_large_ally_not_pick_closed_economy = yes
 				}
    			}
 		}

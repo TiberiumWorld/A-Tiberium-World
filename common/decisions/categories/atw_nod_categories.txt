@@ -1,0 +1,6 @@
+atw_nod_decisions = {
+	icon = generic_research
+	visible = {
+		always = yes
+	}
+}

@@ -41,3 +41,8 @@ set_party_name = {
 	long_name = "Free Party"
 	name = "Free Party"
 }
+
+
+add_ideas = {
+	un_security_council_member
+}

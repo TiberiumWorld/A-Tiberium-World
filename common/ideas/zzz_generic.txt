@@ -99,7 +99,6 @@ ideas = {
 		}
 	}
 
-	# Special ones that can be applied on other countries through focus system.
 	country = {
 	
 		nationalism = {
@@ -1099,179 +1098,11 @@ ideas = {
 	}
 	
 	political_advisor = {
-		# POLITICAL	
-		generic_communist_revolutionary = {
-			
-			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR } }
-				NOT = {
-					has_available_idea_with_traits = { idea = communist_revolutionary limit = 1 }
-				}
-				if = {
-					limit = { has_dlc = "Battle for the Bosporus" }
-					NOT = { tag = TUR tag = GRE }
-				}
-			}
-
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_the_lee_affair
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			traits = { communist_revolutionary }
-	
-			on_add = {
-				#country_event = political.1
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-			
-		generic_democratic_reformer = {
-			
-			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR } }
-				NOT = {
-					has_available_idea_with_traits = { idea = democratic_reformer limit = 1 }
-				}
-				if = {
-					limit = { has_dlc = "Battle for the Bosporus" }
-					NOT = { tag = TUR tag = GRE }
-				}
-			}
-			
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
-					}
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-				if = {
-					limit = { has_dlc = "La Resistance" }	
-					NOT = { original_tag = POR }
-			}
-			}
-
-			
-			traits = { democratic_reformer }
-	
-			on_add = {
-				#country_event = political.13
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		
-		generic_fascist_demagogue = {
-			
-			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POR } }
-				NOT = {
-					has_available_idea_with_traits = { idea = fascist_demagogue limit = 1 }
-				}
-				if = {
-					limit = { has_dlc = "Battle for the Bosporus" }
-					NOT = { tag = TUR tag = GRE }
-				}
-			}
-			
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_in_the_darkness
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}				
-			}
-			
-			traits = { fascist_demagogue }
-	
-			on_add = {
-				#country_event = political.7
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
 		generic_head_of_intelligence = {
 			allowed = { 
 				has_dlc = "La Resistance"
-				# china gets a special one via focus
-				NOT = { original_tag = CHI }
-				NOT = { is_chinese_warlord = yes }
-				if = {
-					limit = {
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = {
-						tag = GRE
-						tag = TUR
-					}
-				}
 			}
 			visible = {
-				OR = {
-					has_idea = generic_head_of_intelligence
-					NOT = {
-						OR = {
-							# ignore if a (historical) minister already available
-							has_allowed_idea_with_traits = { 
-								idea = head_of_intelligence 
-								limit = 1
-								ignore = generic_head_of_intelligence
-							}
-							# ignore if the other one is already taken
-							has_idea_with_trait = head_of_intelligence
-						}
-					}
-				}
 			}
 			available = {
 				has_intelligence_agency = yes
@@ -1285,7 +1116,6 @@ ideas = {
 					factor = 0
 				}
 			}
-
 		}
 	}
 		
@@ -1301,37 +1131,6 @@ ideas = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = BEL tag = CZE } }
-				NOT = {
-					has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = AST tag = SAF tag = NZL tag = CAN }
-						has_dlc = "Together for Victory"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = MAN
-						}
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1345,7 +1144,7 @@ ideas = {
 		}
 	}
 	
-	naval_manufacturer = { 
+	naval_manufacturer = {
 	
 		designer = yes
 	
@@ -1354,40 +1153,6 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = SWE tag = HUN tag = CZE } }
-				NOT = {
-					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = AST tag = CAN tag = NZL tag = RAJ }
-						has_dlc = "Together for Victory"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1410,40 +1175,6 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA } }
-				NOT = {
-					has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
-				}
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { tag = ROM } NOT = { tag = YUG }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR}
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1461,40 +1192,6 @@ ideas = {
 			picture = generic_air_manufacturer_3
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = ROM } }
-				NOT = {
-					has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
-				}
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { tag = YUG }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1512,40 +1209,6 @@ ideas = {
 			picture = generic_air_manufacturer_2
 			
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = ROM } }
-				NOT = {
-					has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
-				}
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { tag = YUG }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1563,36 +1226,6 @@ ideas = {
 			picture = generic_naval_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = ROM tag = YUG } }
-				NOT = {
-					has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
-				}
-				if = {
-					limit = {
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1613,34 +1246,6 @@ ideas = {
 			picture = generic_industrial_concern_1
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = HUN } }
-				NOT = {
-					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1658,37 +1263,6 @@ ideas = {
 			picture = generic_electronics_concern_1
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA } }
-				NOT = {
-					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
-				}
-				NOT = {
-					AND = {
-						has_DLC = "Waking the Tiger"
-						OR = {
-							original_tag = MAN
-							is_literally_china = yes
-						}
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL tag = MEX }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1711,34 +1285,6 @@ ideas = {
 			picture = generic_motorized_equipment_manufacturer_3
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA } }
-				NOT = {
-					has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1756,34 +1302,6 @@ ideas = {
 			picture = generic_infantry_equipment_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = HUN } }
-				NOT = {
-					has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1801,34 +1319,6 @@ ideas = {
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA } }
-				NOT = {
-					has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1847,7 +1337,6 @@ ideas = {
 		generic_captain_of_industry = {
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { captain_of_industry }
@@ -1856,7 +1345,6 @@ ideas = {
 		generic_fortification_engineer = {
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { fortification_engineer }
@@ -1865,7 +1353,6 @@ ideas = {
 		generic_war_industrialist = {
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { war_industrialist }
@@ -1877,7 +1364,6 @@ ideas = {
 		generic_army_chief_off = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { army_chief_offensive_1 }
@@ -1886,7 +1372,6 @@ ideas = {
 		generic_army_chief_def = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { army_chief_defensive_1 }
@@ -1898,7 +1383,6 @@ ideas = {
 		generic_navy_chief_decisive_bat = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { navy_chief_decisive_battle_2 }
@@ -1907,7 +1391,6 @@ ideas = {
 		generic_navy_anti_submarine = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { navy_anti_submarine_2 }
@@ -1919,7 +1402,6 @@ ideas = {
 		generic_air_close_air_sup = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { air_close_air_support_2 }
@@ -1928,7 +1410,6 @@ ideas = {
 		generic_air_chief_all_weather = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { air_chief_all_weather_2 }			
@@ -1941,7 +1422,6 @@ ideas = {
 			ledger = army
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { army_artillery_1 }			
@@ -1951,7 +1431,6 @@ ideas = {
 			ledger = army
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { army_logistics_2 }			
@@ -1961,7 +1440,6 @@ ideas = {
 			ledger = navy
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { navy_fleet_logistics_1 }			
@@ -1971,7 +1449,6 @@ ideas = {
 			ledger = air
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { air_air_combat_training_2 }			
@@ -1984,7 +1461,6 @@ ideas = {
 			ledger = army
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			research_bonus = {
@@ -1998,7 +1474,6 @@ ideas = {
 			ledger = navy
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			research_bonus = {
@@ -2012,7 +1487,6 @@ ideas = {
 			ledger = air
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			research_bonus = {
@@ -2021,7 +1495,5 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
-
 	}
-
 }

@@ -42,7 +42,7 @@ ideologies = {
 		rules = {
 			can_create_factions = no
 			can_join_factions = no
-			can_join_factions_not_allowed_diplomacy = yes
+			#can_join_factions_not_allowed_diplomacy = yes
 			can_occupy_non_war = yes
 			
 			can_create_collaboration_government = no
@@ -114,11 +114,14 @@ ideologies = {
 		ai_communist = yes # uses the commie AI behaviour
 		
 		rules = {
+			can_not_declare_war = no
+
 			can_create_factions = no
 			can_join_factions = no
-			can_join_factions_not_allowed_diplomacy = yes
+			#can_join_factions_not_allowed_diplomacy = yes
 			can_occupy_non_war = yes
 
+			can_only_justify_war_on_threat_country = yes
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
@@ -188,7 +191,7 @@ ideologies = {
 		rules = {
 			can_create_factions = no
 			can_join_factions = no
-			can_join_factions_not_allowed_diplomacy = yes
+			#can_join_factions_not_allowed_diplomacy = yes
 			can_occupy_non_war = yes
 			
 			can_force_government = yes
@@ -278,6 +281,7 @@ ideologies = {
 		faction_impact_on_world_tension = 0.1
 		
 		rules = {
+			can_only_justify_war_on_threat_country = yes
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = no

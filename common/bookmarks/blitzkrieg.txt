@@ -6,75 +6,75 @@ bookmarks = {
 		picture = "GFX_select_date_1939"
 		default_country = "GER"
 		bookmarks = {
-
-		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				gdi_armes_supplier
+			"USA"={
+				history = "USA_GATHERING_STORM_DESC"
+				ideology = democratic
+				ideas = {
+					gdi_armes_supplier
+				}
+				focuses = {
+				}
 			}
-			focuses = {
+			"ENG"={
+				history = "USA_GATHERING_STORM_DESC"
+				ideology = democratic
+				ideas = {
+					gdi_armes_supplier
+				}
+				focuses = {
+				}
 			}
-		}
-		"ENG"={
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				gdi_armes_supplier
+			"GER"={
+				history = "USA_GATHERING_STORM_DESC"
+				ideology = democratic
+				ideas = {
+					gdi_armes_supplier
+				}
+				focuses = {
+				}
 			}
-			focuses = {
+			
+			"NOD"={
+				history = "NOD_GATHERING_STORM_DESC"
+				ideology = fascism
+				ideas = {
+					brotherhood_of_nod_idea
+				}
+				focuses = {
+				}
 			}
-		}
-		"GER"={
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				gdi_armes_supplier
+			"NOA"={
+				history = "NOA_GATHERING_STORM_DESC"
+				ideology = fascism
+				ideas = {
+					brotherhood_of_nod_idea
+				}
+				focuses = {
+				}
 			}
-			focuses = {
+			"NOB"={
+				history = "NOB_GATHERING_STORM_DESC"
+				ideology = fascism
+				ideas = {
+					brotherhood_of_nod_idea
+				}
+				focuses = {
+				}
 			}
-		}
-		
-		"NOD"={
-			history = "NOD_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				brotherhood_of_nod_idea
+			"NOS"={
+				history = "NOS_GATHERING_STORM_DESC"
+				ideology = fascism
+				ideas = {
+					brotherhood_of_nod_idea
+				}
+				focuses = {
+				}
 			}
-			focuses = {
+			
+			effect = {
+				randomize_weather = 22345 # <- Obligatory in every bookmark !
+				#123 = { rain_light = yes }
 			}
-		}
-		"NOA"={
-			history = "NOA_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				brotherhood_of_nod_idea
-			}
-			focuses = {
-			}
-		}
-		"NOB"={
-			history = "NOB_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				brotherhood_of_nod_idea
-			}
-			focuses = {
-			}
-		}
-		"NOS"={
-			history = "NOS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				brotherhood_of_nod_idea
-			}
-			focuses = {
-			}
-		}
-		
-		effect = {
-			randomize_weather = 22345 # <- Obligatory in every bookmark !
-			#123 = { rain_light = yes }
 		}
 	}
 }
