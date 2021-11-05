@@ -1,0 +1,7 @@
+is_un_member = { # Scope: Country
+    NOT = { has_idea = un_non_member }
+}
+
+is_un_security_council_member = { # Scope: Country
+    has_idea = un_security_council_member
+}

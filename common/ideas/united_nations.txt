@@ -1,7 +1,26 @@
 ideas = {
+	hidden_ideas = {
+		un_non_member = {
 
+			allowed = {
+				is_brotherhood_of_nod = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = united_nations
+			
+			modifier = {
+			}
+		}
+	}
 	country = {
-		united_nations = {
+
+		un_security_council_member = {
 
 			allowed = {
 				always = yes
@@ -18,5 +37,6 @@ ideas = {
 			modifier = {
 			}
 		}
+
 	}
 }

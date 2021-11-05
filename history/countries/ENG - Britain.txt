@@ -43,5 +43,5 @@ set_party_name = {
 }
 
 add_ideas = {
-	gdi_armes_supplier
+	un_security_council_member
 }

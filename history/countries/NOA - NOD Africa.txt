@@ -54,4 +54,5 @@ create_country_leader = { # Seth
 
 add_ideas = {
 	brotherhood_of_nod_idea
+	un_non_member
 }
